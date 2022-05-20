@@ -1,0 +1,43 @@
+<html>
+  <head>
+      <title><center>_____</center></title>
+  </head>
+    <body>
+       <H1>
+       <H2>                                        <a href = "___.html">home</a>
+       <H3>
+        <table>
+        <td> ___ </td>
+        <tr> ___ </tr>
+        <th> ___ </th>
+    </body>
+</html>
+
+________________________________
+
+<table>
+   <tr>
+     <td> NAME </td>
+    <td> age </td>
+    <td> city </td> 
+
+Deber : usando solo html dibujar a la tabla con separacion de espacios, lineas, mas la cabecera
+, imagenes <imag> (4pGINAS)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
