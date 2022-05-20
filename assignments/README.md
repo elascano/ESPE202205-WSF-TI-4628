@@ -1,3 +1,3 @@
 # ESPE202205-WSF-TI-4628
-Matias Alvarado assignments
+Jonathan Sinche assignments
 ESPE202205 Web Systems Fundamentals TI 4628
