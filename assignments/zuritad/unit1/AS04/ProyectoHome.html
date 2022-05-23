@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ProWeb Gestor</title>
+    </head>
+    <style>
+        table, th,td{
+			border: 1px solid black;
+			border-collapse: collapse;
+			
+		}
+        table{
+            width: 80%;
+        }
+        td,th{
+			padding: 5;
+		}
+        td{
+            text-align: center;
+        }
+
+        th{
+            background-color: bisque;
+        }
+        th.principal{
+            background-color: aqua;
+        }
+
+    </style>
+
+    <body>
+        <center><img src="ImagenesProyecto/LogoFarma.png"></center>
+        <br>
+
+        <center><table>
+            <tr>
+                <th class="principal" width="50">
+                    Herramientas
+                </th>
+                <th class="principal">
+                    Ventas
+                </th>
+                <th class="principal">
+                    Facturación 
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="Productos" value="Ingreso de Productos"><br> <br> <input type="submit" name="close" value="Cerrar sesion">
+                </td>
+                <td>
+                    <input type="text" name="search" placeholder="Nombre del Producto"> <input type="submit" name="" value="Buscar">
+                    <br> <br>
+                    <center><table>
+                        <tr>
+                            <th>
+                                Nombre
+                            </th>
+                            <th>
+                                Precio por unidad
+                            </th>
+                            <th>
+                                Precio caja
+                            </th>
+                            <th>
+                                No. Cajas
+                            </th>
+                            <th>
+                                Unidades
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                Finalin Forte
+                            </td>
+                            <td>
+                                $0,60
+                            </td>
+                            <td>
+                                $12
+                            </td>
+                            <td>
+                                4
+                            </td>
+                            <td>
+                                20
+                            </td>
+                        </tr>
+                    </table></center>
+                    <br>
+                    <input type="text" name="search" placeholder="cantidad a vender"> <input type="submit" name="" value="Agregar al carrito">
+                </td>
+                <td>
+                    Factura No: <br> Total venta: <br> IVA: <br> Dinero recibido: <br> Cambio:
+                </td>
+            </tr>
+        </table></center>
+
+    </body>
+</html>
