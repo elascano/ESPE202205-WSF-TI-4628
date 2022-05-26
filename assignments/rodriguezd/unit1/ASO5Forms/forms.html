@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Form</title>
+</head>
+<body style="background-color: whitesmoke;">
+    <h2><center>Employee</center></h2>
+    <br>
+<form>
+    <center><table border="1" width="370" height="500" style="background-color: whitesmoke;">
+        <tr>
+            <td><b><label for ="txtId">Id:</label></b></td>
+            <td><input type="text" id="txtId" name="txtId" size="20" required=""></td>
+        </tr>
+        <tr>
+            <td><b><label for="fullName">Full name:</label></b></td>
+            <td><input type="text" id="fullName" name="fullName" size="30" required=""></td>
+        </tr>
+        <tr>
+            <td><b><label for="ageInYears">Age in years:</label></b></td>
+            <td><input type="text" id="ageInYears" name="ageInYears" maxlength="2" required=""></td>
+        </tr>
+
+        <tr>
+            <td><b><label for="birthDate">Birth date:</label></b></td>
+            <td><input type="date"></td>
+        </tr>
+       
+        <tr>
+            <td><b><label for="phoneNumer">Phone Number:</label></b></td>
+            <td><input type="text" id="fullName" name="fullName"  maxlength="10" size="30"></td>
+        </tr>
+        <tr>
+            <td><b><label for="gender">Gender:</label></b></td>
+            <td><label><input type="radio" name="gender" value="opción" id="male">
+            Male</label>
+            <br>
+            <label>
+                <input type="radio" name="gender" value="opción" id="female">
+            Female</label></td>
+        </tr>
+        <tr>
+            <td><b><label for="experience">Experience:</label></b></td>
+            <td><center><textarea></textarea></center></td>
+        </tr>
+        <tr>
+            <td><b><label for="countryOfOrigin">Country of origin:</label></b></td>
+           <td><select>
+               <option>Seleccione</option>
+               <option>Basil</option>
+               <option>Ecuador</option>
+               <option>Colombia</option>
+               <option>Perú</option>
+               <option>México</option>
+               <option>España</option>
+               <option>Francia</option>
+               <option>Venezuela</option>
+               <option>Estados Unidos</option>
+               <option>Canada</option>
+               <option>Bolivia</option>
+               <option>Chile</option>
+               <option>Argentina</option>
+               <option>Paraguay</option>
+               <option>Uruguay</option>
+               <option>Italia</option></td>
+           </select>
+        </tr>
+        <tr>
+            <td><b><label for="hobbies">Hobbies:</label></b></td>
+            <td><input type="checkbox" name="checkbox" id="hobbies">
+                <label for="checkbox">Soccer </label><br><input type="checkbox" name="checkbox" id="hobbies">
+                <label for="checkbox">Basketball </label><br><input type="checkbox" name="checkbox" id="hobbies">
+                <label for="checkbox">Dance</label><br><input type="checkbox" name="checkbox" id="hobbies">
+                <label for="checkbox">Cycling</label><br><input type="checkbox" name="checkbox" id="hobbies">
+                <label for="checkbox">Listen to music</label></td>
+        </tr>
+        <tr>
+            <td colspan="2"><center><button type="submit">Enviar</button></center></td>
+        </tr>
+    </table></center>
+</form>
+</body>
+</html>
