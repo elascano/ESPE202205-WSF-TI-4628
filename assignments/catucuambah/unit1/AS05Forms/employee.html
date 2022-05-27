@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Employee</title>
+</head>
+<body bgcolor="#F5F5F5">
+	<center><h2 style="background: #0B5ED7; color: white">Employee</h2>
+	<form style="font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif'; font-size: 18px" >
+	<table border="0" width="auto">
+		  <tbody>
+			<tr>
+			  <td><label for="txtId">Id</label></td>
+			  <td><input size="8" type="text" id="txtId" name="txtId" required></td>
+			</tr>
+			<tr>
+			  <td><label for="txtfullName">Full Name</label></td>
+			  <td><input size="30" type="text" id="txtfullName" name="txtfullName"></td>
+			</tr>
+			<tr>
+			  <td><label for="txtAgeYears">Age in Years</label></td>
+			  <td><input type="text" id="txtAgeYears" name="txtAgeYears" value="10" maxlength="2"></td>
+			</tr>
+			<tr>
+			  <td><label for="cmbBirthDate">BirthDate</label></td>
+			  <td>
+				  <select id="cmbDay" name="cmbDay">
+				  	<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+				  </select>
+				  
+				  <select id="cmbMonth" name="cmbMonth">
+				  	<option value="1">January</option>
+					<option value="2">Febreary</option>
+					<option value="3">March</option>
+					<option value="4">May</option>
+				  </select>
+				  
+				  <select id="cmbYear" name="cmbYear">
+				  	<option value="1">1996</option>
+					<option value="2">1997</option>
+					<option value="3">1998</option>
+					<option value="4">1999</option>
+				  </select>
+				</td>
+			</tr>
+			<tr>
+			  <td><label for="phoneNumber">Phone Number</label></td>
+			  <td><input type="number" id="phoneNumber" name="phoneNumber"></td>
+			</tr>
+			<tr>
+			 <td><label for="radioGender">Gender</label></td>
+			  	<td>
+					<input type="radio" id="male" name="Gender" value="M" checked>
+					<label for="male">M</label>
+					<br />
+					<input type="radio" id="female" name="Gender" value="F">
+					<label for="female">F</label>
+				</td>
+			</tr>
+			<tr>
+			  <td><label for="txtAreaExpe">Experience</label></td>
+			  <td><textarea id="txtAreaExpe" name="txtAreaExpe" ></textarea></td>
+			</tr>
+			<tr>
+			  <td><label for="cmbCountry">Country at Origin</label></td>
+			  <td>
+				  <select id="cmbCountry" name="cmbCountry">
+				  	<option value="1">Spain</option>
+					<option value="2">Ecuador</option>
+					<option value="3">Brazil</option>
+					<option value="4">Argentina</option>
+					<option value="5">Germany</option>
+					<option value="6">Chile</option>
+				  </select>	
+			</td>
+			</tr>
+			<tr>
+			  <td><label for="checjHobbies">Hobbies</label></td>
+			  <td>
+					<input type="checkbox" name="cboxSwim" id="cboxSwim">
+      				<label for="cboxSwim">Swimming</label>
+				  	<br />
+				  	<input type="checkbox" name="cboxSoccer" id="cboxSoccer">
+      				<label for="cboxSoccer">Soccer</label>
+					<br />
+				  	<input type="checkbox" name="cboxTravel" id="cboxTravel">
+      				<label for="cboxTravel">Traveling</label>
+				  	<br />
+				  	<input type="checkbox" name="cboxInstru" id="cboxInstru">
+      				<label for="cboxInstru">Playing an instrument</label>
+				  	<br />
+				  	<input type="checkbox" name="cboxHiking" id="cboxHiking">
+      				<label for="cboxHiking">Hiking</label>
+				  	<br />
+				  	<input type="checkbox" name="cboxDancing" id="cboxDancing">
+      				<label for="cboxDancing">Dancing</label>
+				  	<br />
+				  	<input type="checkbox" name="cboxChess" id="cboxChess">
+      				<label for="cboxChess">Chess</label>
+			</td>
+			</tr>
+			<tr >
+				<td align="center" >
+					<br />
+					<input value="Submit" type="submit" style="background: #0B5ED7; color: white; font-size: 20px; border-color: #0B5ED7;border-radius: 5px">
+				</td>
+			  	<td>
+					<br />
+					<input value="Reset" type="reset" style="color: white; background: #0B5ED7;font-size: 20px; border-color: #0B5ED7; border-radius: 5px">
+				</td>
+			</tr>
+		  </tbody>
+	</table></form>
+	</center>
+
+</body>
+</html>
