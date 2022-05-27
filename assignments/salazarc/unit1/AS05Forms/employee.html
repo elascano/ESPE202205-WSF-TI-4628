@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+		<head>
+			<center><h2>EMPLOYEE</h2></center>
+		</head>
+		
+		<title>WS05</title>
+
+		<body><center>
+		<table>
+			<tr>
+				<td><b><label for="txtId">Id</label></b></td>
+				<td><input size="8" type="text" id="txtId" name="txtId" required></td>
+			</tr>
+			
+			<tr>
+				<td><b><label for="txtfullName">Full Name</label></b></td>
+				<td><input size="30" type="text" id="txtfullName" name="txtfullName"></td>
+			</tr>
+			
+			<tr>
+				<td><b><label for="txtAgeInYears">Age in Years</label></b></td>
+				<td><input size="1" type="text" id="txtAgeInYears" name="txtAgeInYears"  maxlength="2"></td>
+			</tr>
+			
+			<tr>
+                <td><b><label for="birthDate">BirthDate</label></b></td>
+                <td>
+                    <input type="date">
+                </td>
+              </tr>
+			
+			<tr>
+				<td><b><label for="txtphoneNumber">Phone Number</label></b></td>
+			    <td><input size="10" type="text" id="txtphoneNumber" name="txtphoneNumber" maxlength="10"></td>
+			</tr>
+			
+			<tr>
+			 <td><b><label for="radioGender">Gender</label></b></td>
+			 <td>
+				<input type="radio" id="male" name="Gender" value="M" checked>
+				<label for="male">M</label>
+				<br>
+				<input type="radio" id="female" name="Gender" value="F">
+				<label for="female">F</label>
+		     </td>
+			</tr>
+			
+			<tr>
+				<td><b><label for="txtexperience">Experience</label></b></td>
+				<td><textarea></textarea></td>
+			</tr>
+			
+			
+			<tr>
+				<td><b><label for="cmbCountryOfOrigin">Country of Origin</label></b></td>
+				<td>
+				  <select id="cmbCountry" name="cmbCountry">
+				    <option>Select*</option>
+					<option>Argentina</option>
+					<option>Brazil</option>
+					<option>Colombia</option>
+					<option>Ecuador</option>
+					<option>France</option>
+					<option>Italy</option>
+					<option>Portugal</option>
+					<option>Russia</option>
+					<option>Spain</option>
+				  	<option>United States</option>
+				  </select>
+				</td>
+			</tr>
+			
+			
+			<tr>
+				<td><b><label for="radioHobbie">Hobbie</label></b></td>
+			    <td>
+				<input type="checkbox" id="Soccer" name="Hobbie" value="Soccer" checked>
+				<label for="checkbox">Soccer</label>
+				<br>
+				<input type="checkbox" id="Tennis" name="Hobbie" value="Tennis" checked>
+				<label for="checkbox">Squash</label>
+				<br>
+				<input type="checkbox" id="Swimming" name="Hobbie" value="Swimming" checked>
+				<label for="checkbox">Video games</label>
+				<br>
+				<input type="checkbox" id="Running" name="Hobbie" value="Running">
+				<label for="checkbox">Running</label>
+				<br>
+				<input type="checkbox" id="Running" name="Hobbie" value="Running" checked>
+				<label for="checkbox">basketball</label>			
+		        </td>
+			</tr>		
+			
+			<tr>
+				<td colspan="2"><center><button type="submit">Send</button></center></td>
+			</tr>			
+		</table>
+		</center></body>
+</html>
