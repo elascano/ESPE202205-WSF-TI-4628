@@ -1,0 +1,91 @@
+<html>
+   <head>
+   <title>EMPLOYEE</title>
+</head>
+   <body>
+
+   <br><br>
+<center>
+   <table>
+      <p><h2>EMPLOYEE</h2></p>
+       <hr width="400">
+      <form>
+           <tr><td><LABEL for="txtId"  maxlength="8">ID: </LABEL></td>
+             <td><INPUT type="text" id="id" required><BR></td></tr>
+           <tr>
+             <td><LABEL for="txtName"> Name: </LABEL></td>
+             <td><INPUT type="text" id="Name" size="10"><BR></td>
+           </tr>
+           <tr>
+             <td><LABEL for="txtLastName"> Last Name: </LABEL></td>
+             <td><INPUT type="text" id="LastName" size="10"><BR></td>
+           </tr>
+           <tr>
+             <td><LABEL for="txtAgeInYears">Age in years</LABEL></td>
+             <td><INPUT type="text" id="ageInYears"  maxlength="2" size="2"> <BR></td>
+           </tr>
+           <tr>
+             <td><LABEL for="txtBirthDate">BirthDate</LABEL></td>
+             <td>    
+               <input type="date" name="fecha">
+                </select><BR>
+            </td>
+           </tr>
+           <tr>
+             <td><LABEL for="txtPhone">Phone </LABEL></td>
+             <td><INPUT type="text" id="phone" maxlength="10" size="10"><BR></td>
+           </tr>  
+          <tr>
+             <td><LABEL for="selectG">Hobbies </LABEL></td>
+             <td>
+               <input type="checkbox" id="hobbies1" name="hobbies1" value="Sing">
+                <label for="hobbies1"> Sing</label><BR><BR>
+                <input type="checkbox" id="hobbies2" name="hobbies2" value="Read">
+                <label for="hobbies2"> Read</label><BR><BR>
+                <input type="checkbox" id="hobbies3" name="hobbies3" value="Soccer">
+                <label for="hobbies3"> Soccer</label><BR><BR>
+                <input type="checkbox" id="hobbies4" name="Learn languages" value="Learn languages">
+                <label for="hobbies4"> Learn languages</label><BR><BR>
+            </td>
+           </tr>
+           <tr>
+            <td><LABEL for="selectG">Country of Origin </LABEL>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td><select name="select">
+              <option value="Argentina">Argentina</option>
+               <option value="Bolivia">Bolivia</option>
+               <option value="Brasil">Brasil</option>
+              <option value="Colombia">Colombia</option>
+              <option value="Chile">Chile</option>
+              <option value="Ecuador"selected>Ecuador</option>
+               <option value="Guyana Francesa">Guyana Francesa</option>
+              <option value="Guyana" >Guyana</option>
+              <option value="Paraguay">Paraguay</option>
+               <option value="Peru">Peru</option>
+                <option value="Surinam">Surinam</option>
+               <option value="Uruguay">Uruguay</option>
+              <option value="Colombia" >Venezuela</option>
+            </select>
+            </td> 
+           </tr>
+           <tr>
+             <td><LABEL for="selectG">Gender </LABEL></td>
+             <td>
+               <INPUT id="male" type="radio" name="gender" value="M"> Male<BR>
+                <INPUT id="female" type="radio" name="gender" value="F"> Female<BR><BR>
+            </td>
+           </tr>
+           <tr>
+            <td><LABEL for="Experience">Experience </LABEL></td>
+             <td>
+           <textarea name="message" rows="5" cols="18"></textarea>
+             </td>
+           </tr>
+           <tr>
+             <td><INPUT type="submit" value="Send"> </td>  
+             <td><INPUT type="submit" value="Clean"> </td>        
+           </tr>
+          </form>
+   </table>
+   </center>
+   </body>
+</html>
