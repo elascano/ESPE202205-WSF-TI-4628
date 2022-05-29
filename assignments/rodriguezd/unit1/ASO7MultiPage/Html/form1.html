@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Ingreso datos cliente</title>
+</head>
+<body style="background-color: powderblue;">
+    <br>
+    <center><table border="1">
+    <td><center>Ingreso datos cliente</center></td>
+    <td><center><a href="articulosdeEscrituraYCuadernos.html">Articulos de Escritura y Cuadernos</a></center></td>
+    <td><center><a href="articulosDeOficinaYCarpetas.html">Articulos de Oficina y Carpetas</a></center></td>
+    <td><center><a href="detallesyRegalos.html">Detalles y Regalos</a></center></td>
+    </table>
+    <br>
+    
+    <h2><center>Datos Cliente</center></h2>
+
+    <form>
+    <center><table width="380" height="470" border="1">
+
+        <tr>
+           <td><b><label for="cedula">Cedula:</label></b></td>
+           <td><input type="text" id="cedula" name="cedula" required="" size="20" maxlength="10"></td>
+        </tr>
+        <tr>
+            <td><b><label for="nombres">Nombres:</label></b></td>
+           <td><input type="text" name="nombres" size="35" id="nombres" ></td>
+        </tr>
+        <tr>
+            <td><b><label for="apellidos">Apellidos:</label></b></td>
+            <td><input type="text" id="apellidos" name="apellidos" size="35" ></td>
+        </tr>
+        <tr>
+            <td><b><label for="telefono:">Teléfono:</label></b></td>
+            <td><input type="text" id="telefono" name="telefono" size="20" maxlength="10"></td>
+
+        </tr>
+        <tr>
+            <td><b><label for="direccion:">Dirección:</label></b></td>
+            <td><input type="text" id="direccion" name="direccion"  size="35" ></td>
+        </tr>
+        <tr>
+            <td><b><label for="genero:">Genero:</label></b></td>
+            <td><label><input type="radio" name="genero" value="opción" id="hombre">Hombre</label><br>
+                <label><input type="radio" name="genero" value="opción" id="mujer">Mujer</label>
+            </td>
+        </tr>
+        <tr>
+            <td><b><label for="informacion">¿Cómo se entero de la página web?</label></b></td>
+            <td><input type="checkbox" name="checkbox" id="informacion"><label for="checkbox">Familiares</label><br><input type="checkbox" name="checkbox" id="informacion"><label for="checkbox">Internet</label>
+            <br><input type="checkbox" name="checkbox" id="informacion"><label for="checkbox">Redes sociales</label></td>
+        </tr>
+        <tr>
+            <td colspan="2"><center><button type="submit">Enviar</button></center></td>
+        </tr>
+
+
+    </table></center>
+</form>
+</body>
+</html>
