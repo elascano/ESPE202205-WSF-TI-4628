@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Project</title>
+	<style>
+	body {
+		background-image: url('https://marketplace.canva.com/EAD-Ck-LnP0/1/0/1600w/canva-arco%C3%ADris-gradiente-rosa-naranja-y-azul-fondo-virtual-para-zoom-VwJMC37j5jQ.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;  
+		background-size: cover;
+	}
+	</style>
+</head>
+<body>
+	<center>
+	<form>
+		<table style="width:36%;" width="500" height="400" border="1">
+			<tr>
+				<th colspan="2">Registro</th>
+			</tr>
+			
+			<tr>
+				<img src="logo\logoSS.jpeg" alt="Space-Ship" 
+				style="width:145px;height:155px;">
+				<br>
+			</tr>
+			<tr>
+				<td><label for="id">Cedula o pasaporte: </label></td>
+				<td><input type="text" id="id" name="txtId" size="20" required></input></td>
+			</tr>
+			
+			<tr>
+				<td><label for="full name">Nombre y Apellido: </label></td>
+				<td><input type="text" id="name" name="txtName" size="40" required></input></td>
+			</tr>	
+			
+			<tr>	
+				<td><label for="years">Edad: </label></td>
+				<td><input type="text" id="ageInYears" name="txtageInYears" size="10" placeholder="0" maxlength="2"></input></td>
+			</tr>	
+			
+			<tr>	
+				<td><label for="birthdate"> Fecha de nacimiento: </label></td>
+				<td><input type="date"></input></td>
+			</tr>
+			
+			<tr>
+				<td><label for="phone number">Celular: </label></td>
+				<td><input type="text" id="number" name="txtNumber" size="10" placeholder="0"></input></td>
+			</tr>
+			
+			<tr>
+				<td><label for="gender">Genero</label></td>
+                <td>
+					<label><input type="radio" name="gender" value="opción" id="Male">Male</label>
+					<br>
+					<label><input type="radio" name="gender" value="opción" id=Famale">Famale</label>
+				</td>
+			</tr>
+			
+			<tr>
+				<td><label for="email">email: </label></td>
+				<td><input type="text" id="email" name="txtemail" size="40" required></input></td>
+			</tr
+			
+			<tr>
+				<td><label for="ciudad">Ciudad: </label></td>
+                <td><select>
+				
+                    <option>Seleccione</option>
+                    <option>Azuay</option>
+                    <option>Bolivar</option>
+                    <option>Carchi</option>
+                    <option>Chimborazo</option>
+                    <option>Cotopaxi</option>
+                    <option>El Oro</option>
+                    <option>Esmeraldas</option>
+                    <option>Galapagos</option>
+                    <option>Guayas</option>
+                    <option>Imbabura</option>
+                    <option>Loja</option>
+                    <option>Los Rios</option>
+                    <option>Manabi</option>
+                    <option>Morona Santiago</option>
+                    <option>Napo</option>
+                    <option>Orellana</option>
+                    <option>Pastaza</option>
+                    <option>Santa Elena</option>
+                    <option>Santo Domingo de los Tsachilas</option>
+                    <option>Sucumbios</option>
+                    <option>Tungurahua</option>
+                    <option>Zamora Chinchipe</option>
+                    <option>Pichincha</option>
+                    <option>Cañar</option>
+    
+				</select></td>
+			</tr>
+			
+			<tr>
+				<td><label for="username">Usuario:</label></td>
+				<td><input type="text" id="username" name="username"></td>
+			</tr>
+			
+			<tr>
+				<td><label for="pwd">Contrase&ntilde;a: </label></td>
+				<td><input type="password" id="pwd" name="pwd"></td>
+			</tr>
+			
+			<tr>
+				<td colspan="2"><center>
+					<input type="submit">
+					<input type="reset" value="Borrar">
+				</input></center></td>
+			</tr>
+		
+		</table>
+	</form>
+	</center>
+</body>
+</html>

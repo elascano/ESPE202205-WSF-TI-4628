@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Employee</title>
+</head>
+<body>
+	<center>
+	<h1> Employee </h1>
+	<form>
+		<table style="width:34%;" width="500" height="400" border="1">
+			<tr>
+				<td><label for="id">Id: </label></td>
+				<td><input type="text" id="id" name="txtId" size="40" required></input></td>
+			</tr>
+			
+			<tr>
+				<td><label for="full name">Full name: </label></td>
+				<td><input type="text" id="name" name="txtName" size="40" required></input></td>
+			</tr>	
+			
+			<tr>	
+				<td><label for="years">Age in years: </label></td>
+				<td><input type="text" id="ageInYears" name="txtageInYears" size="10" value="0" maxlength="2"></input></td>
+			</tr>	
+			
+			<tr>	
+				<td><label for="birthdate"> Birth Date: </label></td>
+				<td><input type="date"></input></td>
+			</tr>
+			
+			<tr>
+				<td><label for="phone number">Phone Number:</label></td>
+				<td><input type="text" id="number" name="txtNumber" size="10" value="0"></input></td>
+			</tr>
+			
+			<tr>
+				<td><label for="gender">Gender</label></td>
+                <td>
+					<label><input type="radio" name="gender" value="opción" id="Male">Male</label>
+					<br>
+					<label><input type="radio" name="gender" value="opción" id=Famale">Famale</label>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="experience">Experience: </label></td> 
+				<td><textarea></textarea></td>
+			
+			</tr>
+			<tr>
+				<td><label for="country">Country of Origin: </label></td>
+                <td><select>
+				
+                    <option>Afganistán</option>
+                    <option>Albania</option>
+                    <option>Alemania</option>
+                    <option>Andorra</option>
+                    <option>Bahamas</option>
+                    <option>Bangladés</option>
+                    <option>Barbados</option>
+                    <option>Baréin</option>
+                    <option>Bélgica</option>
+                    <option>Camboya</option>
+                    <option>Camerún</option>
+                    <option>Canadá</option>
+                    <option>Catar</option>
+                    <option>Dinamarca</option>
+                    <option>Dominica</option>
+                    <option>Ecuador</option>
+                    <option>Egipto</option>
+                    <option>Eslovaquia</option>
+                    <option>Estados Unidos</option>
+                    <option>Filipinas</option>
+                    <option>Georgia</option>
+                    <option>Haití</option>
+                    <option>India</option>
+                    <option>Japón</option>
+                    <option>Maldivas</option>
+    
+				</select></td>
+			</tr>
+			
+			<tr>
+				<td><label for="hobbies">Hobbies</label></td>
+                <td>
+					<label><input type="checkbox" name="hobbies" value="opción" id="soccer">Soccer</label>
+					<br>
+					<label><input type="checkbox" name="hobbies" value="opción" id=basketball">Basketball</label>
+					<br>
+					<label><input type="checkbox" name="hobbies" value="opción" id="volley">Volley</label>
+					<br>
+					<label><input type="checkbox" name="hobbies" value="opción" id=others">Others</label>
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="2"><center><input type="submit" value="submit"</input></center></td>
+			</tr>
+		
+		</table>
+	</form>
+	</center>
+</body>
+</html>
