@@ -1,0 +1,119 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Forms Exercices</title>
+	</head>
+	<body>
+	<center><h2>EMPLOYEES</h2></center>
+	<center><h4>By Samantha Tipanguano</h4></center>
+	<form>
+		<center><table border="2">
+			<tr>
+				<td><label for="txtId"> ID: </label></td>
+				<td><input type="text" id="txtId" name="txtId"></td>
+			</tr>
+			<tr>
+				<td><label for="txtFullName"> Full Name: </label></td>
+				<td><input type="text" id="txtFullName" name="txtFullName"></td>
+			</tr>
+			
+			<tr>
+				<td><label for="txtAge"> Age in years: </label></td>
+				<td><input type="number" id="txtAge" name="txtAge" min="1" max="100"></td>
+
+			
+			</tr>
+			<tr>
+				<td><label for="cbm"> Birth Date: </label></td>
+				<td><input type="date" id="cmb" name="cmb" min="1950-01-02"></td>
+				<!---
+				<td><select id="cmbday" name="cmbday">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="0">0</option>
+						
+				<td><select id="cmbmonth" name="cmbmonth">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="0">0</option>
+						
+					</select>
+					</td>
+				<td><select id="cmbyear" name="cmbyear">
+						<option value="98">1998</option>
+						<option value="99">1999</option>
+						<option value="20">2000</option>
+						<option value="01">2001</option>
+						<option value="02">2002</option>
+						
+					</select>
+					</td>
+				
+				
+			--->
+			</tr>
+			<tr>
+				<td><label for="txtPhone"> Phone Number: </label></td>
+				<td><input type="tel" id="txtPhone" name="txtPhone" placeholder="0998-7655-892" pattern="[0-9]{4}-[0-9]{4}-[0-9]{3}"></td>
+
+				
+			</tr>
+			<tr >
+				<td><label for="txtGender"> Gender: </label></td>
+				<td><input type="radio" id="male" name="gender" value="M">
+				<label for="male">Male</label><br>
+				<input type="radio" id="female" name="gender" value="F">
+				<label for="female">Female</label></td>
+		
+			</tr>
+			<tr>
+				<td><label for="txtExperience"> Experience: </label></td>
+				<td><textarea name="message" rows="12" cols="35">¡Tell us your experience!</textarea></td>
+			</tr>
+			<tr>
+				<td><label for="txtCountry"> Country of Origin: </label></td>
+				<td><select id="country" name="country">
+				<option value="Ecuador">Ecuador</option>
+				<option value="Brazil">Brazil</option>
+				<option value="Chile">Chile</option>
+				<option value="Argentina">Argentina</option>
+				<option value="Colombia">Colombia</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td><label for="txtHobbies"> Hobbies: </label></td>
+				<td><input type="checkbox" id="hobbie1" name="hobbie1" value="Aerobics">
+					<label for="hobbie1"> Aerobics</label><br>
+					<input type="checkbox" id="hobbie2" name="hobbie2" value="Chess">
+					<label for="hobbie2"> Chess </label><br>
+					<input type="checkbox" id="hobbie3" name="hobbie3" value="Origami">
+					<label for="hobbie3"> Origami </label><br>
+					<input type="checkbox" id="hobbie4" name="hobbie4" value="Photography">
+					<label for="hobbie4"> Photography </label><br>
+					<input type="checkbox" id="hobbie5" name="hobbie5" value="Trivia">
+					<label for="hobbie5"> Trivia </label>
+				</td>
+			</tr>
+			
+			<td><input type="submit" value="Save"></td>
+			
+		</center></table>
+		</form>
+	
+		
+	</body>
+</html>

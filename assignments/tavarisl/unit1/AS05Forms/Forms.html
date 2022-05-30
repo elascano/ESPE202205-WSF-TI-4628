@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+		 <style>
+	    table, td{	
+		 border: 0.5px solid #DCD3D1;
+		 border-collapse: collapse;
+		}
+        td{
+		  padding: 10px;
+		  text-align: left;
+		}		
+	  </style>
+    </head>
+
+    <body style="background-color:#E39C8D  " >
+   
+<form>
+       <center> <table>
+	     <tr>
+		<td style="background-color:#FF0000" colspan="4"><center><h2>Registro</h2></center></td>
+		</tr>
+
+            <tr>
+                <td>
+                    <label for="txtId">Id:</label>
+                </td>
+                <td>
+                    <input type="text" name="txtId" id="txtId" size="9" required/>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="txtFullName">Full Name:</label>
+                </td>
+                <td>
+                    <input type="text" name="txtFullName" id="txtFullName" size="20"/>
+                </td>
+            </tr>
+ <tr>
+	  <td><input type="radio" id="male" name="Gender" value="M"></input> <label tor="Gender">Male </label></td>
+	  <td><input type="radio" id="Female" name="Gender" value="F"></input> <label tor="Gender">Female</label></td>
+	  </tr>
+	    <tr>
+               <td>
+                    <label for="txtPassword">Ingrese una contraseña:</label>
+                </td>
+				 <td>
+                    <input type="password" name="txtPassword" id="txtPassword" 
+					 placeholder="Elije una contraseña" size="20"
+					 maxlength="30" alt="strongPass" required>
+                </td> 
+			
+			</tr>
+			 <tr>
+               <td>
+                    <label for="txtPassword">Ingrese de nuevo la contraseña:</label>
+                </td>
+				 <td>
+                    <input type="password" name="txtPassword" id="txtPassword" 
+					 placeholder="Repita la contraseña" size="20" maxlength="30" required>
+                </td> 
+				</tr>
+           <tr>
+                <td>
+                    <label for="txtBirthDate">Fecha de Nacimiento;</label>
+                </td>
+                <td>
+                    <input type="date" name="trip-txtBirthDate" id="txtBirthDate" value="2022-05-26" min="1953-01-01" 
+					max="2022-12-31" required>
+                </td>
+            </tr>
+                 <tr>
+                <td colspan="4" >
+                   <center> <button type="submit" value="Registrarse" >
+				   <a href="principal.html">Completar</button></center></a>
+                </td>
+
+            </tr>
+        </table></center>
+        </form>
+    </body>
+</html>

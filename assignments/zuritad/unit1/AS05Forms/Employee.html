@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Employee</title>
+    </head>
+    <style>
+        table,td{
+            background-color: bisque;
+            border: 1px solid black;
+        }
+        
+    </style>
+    <body>
+        <center><h2>EMPLOYEE</h2></center>
+        <form>
+        <center><table>
+            <tr>
+                <td>
+                    <label for="id">ID:</label>
+                </td>
+                <td>
+                    <input type="text" id="ID" name="txtID" size="8" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Nombre">Name:</label>
+                </td>
+                <td>
+                    <input type="text" id="Name" name="txtfullName">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Age">Age in years:</label>
+                </td>
+                <td>
+                    <input type="text" id="age"  maxlength="2" name="ageEmployee">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Birthday">Birthday:</label>
+                </td>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone">Phone Number</label>
+                </td>
+                <td>
+                    <input type="text", id="number", name="phone" maxlength="10">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="gender">Gender:</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="gender" id="male" value="M" checked>
+                </td>
+                <td>
+                    <label for="male">Male</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="gender" id="female" value="F">
+                </td>
+                <td>
+                    <label for="female">Female</label> <br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="experience">Experience: </label>
+                </td>
+                <td>
+                    <textarea name="" id="" cols="40" rows="8"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="country">Country of origin </label>
+                </td>
+                <td>
+                    <select name="country_origin" id="country">
+                        <option value="1">Ecuador</option>
+                        <option value="2">Colombia</option>
+                        <option value="3">Peru</option>
+                        <option value="4">Chile</option>
+                        <option value="5">Uruguay</option>
+                        <option value="6">Paraguay</option>
+                        <option value="7">Argentina</option>
+                        <option value="8">Brasil</option>
+                        <option value="9">Bolivia</option>
+                        <option value="10">Mexico</option>
+                        <option value="11">EEUU</option>
+                        <option value="12">Canada</option>
+                    </select> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="hobbie">Hobbies: </label>
+                </td>
+                <td>
+                    <input type="checkbox" id="hobbie" name="Hobbies">Soccer <br>
+                    <input type="checkbox" id="hobbie" name="Hobbies">Basketball <br>
+                    <input type="checkbox" id="hobbie" name="Hobbies">Listen to music <br>
+                    <input type="checkbox" id="hobbie" name="Hobbies">Watch movies <br>
+                    <input type="checkbox" id="hobbie" name="Hobbies">Read books <br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <center><input type="submit" value="Submit" style="background-color:hwb(172 42% 16%)"/> </center>
+                </td>
+            </tr>
+        </table></center>
+    </form>
+    </body>
+</html>

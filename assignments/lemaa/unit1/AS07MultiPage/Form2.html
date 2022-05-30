@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html >
+<head>
+   
+    <title>FormProject</title>
+</head>
+<body style="background-color: indianred;">
+  <center><table border="1">
+    <tr>
+        <td> <center><a href="index.html">INICIO</a></center> </td>
+        <td> <center>DATOS CLIENTES</center> </b></td>
+        <td> <center><a href="escolar.html">ESCOLAR</a></center> </b></td>
+        <td> <center><a href="arteymanualidades.html">ARTE Y MANUALIDADES</a></center> </td>
+        <td> <center><a href="juguetesyregalos.html">JUGUETES Y REGALOS</a></center> </td>
+    </tr>
+</table></center> 
+        <h2><center>PAPELERÍA ORFITA</center></h2>
+        <h2><center>BIENVENIDOS A NUESTRO FORMULARIO</center></h2>
+    </table></center>
+    <br>
+    <center><table>
+        <tr>
+            <img src="img\papeleria.jpg" width="350" height="250"/>
+        </tr>
+    </table></center>
+    <form >
+
+        <center><table width="550" height="650" border="1" style="background-color: rgb(88, 182, 236);" > 
+            
+              <tr>
+                <td><label for="nombres">Nombre:</label></lebel></td>
+                <td><input type="text" id="nombres" name="nombres" size="30"></td>
+              </tr>
+              <tr>
+                <td><label for="apellidos">Apellido:</label></lebel></td>
+                <td><input type="text" id="apellidos" name="apellidos" size="30"></td>
+              </tr>
+              <tr>
+              <td><label for ="txtcédula">Cédula:</label></td>
+                 <td><input type="text" id="txtcédula" name="txtcédula" size="30" required=""></td>
+               </tr>
+              <tr>
+                <td><label for="edad">Edad:</label></lebel></td>
+                <td><input type="text" id="edad" name="edad" size="30"  maxlength="2"></td>
+              </tr>
+              <tr>
+                <td><label for="fechaactual">Fecha Actual</label></td>
+                <td>
+                    <input type="date">
+                </td>
+              </tr>
+              <tr>
+                <td><label for="númerodeteléfono">Número De Teléfono:</label></td>
+                <td><input type="text" id="númerodeteléfono" name="númerodeteléfono" size="30"  maxlength="10"></td>
+              </tr>
+              <tr>
+                <td><label for= "género">Género</label></td>
+                <td><input type="radio" name="género"" value="opción" id="Feminino">
+                    Femenino</label>
+                  <br>
+                  <label>
+                    <input type="radio" name="género" value="opción" id=Masculino">
+                    Masculino</label></td>
+              </tr>
+              <tr>
+                    <td><label for="email">Correo:</label></lebel></td>
+                    <td><input type="text" id="email" name="email" size="30"></td>
+              </tr>
+
+                <td><label for="queProductosUtilizasMas">Qué productos utilizas más</label></td>
+                <td><input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox">cuadernos</label><br><input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox">esferos</label><br><input type="checkbox" name="checkbox" id="checkbox"> <label for="checkbox">Hojas</label></br><input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox">Cartulinas</label><br><input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox">Carpetas</label><br></td>
+              </tr>
+              <td><label for="quenuevosproductostegustaria">Que nuevos productos te gustaría </label></td>
+                <td><select>
+                    <option>Seleccione</option>
+                    <option>perfumes</option>
+                    <option>maquillaje</option>
+                    <option>pizarrones</option>
+                    <option>arreglos</option>
+                  </select></td>
+              </tr>
+              <tr>
+                <td><label for="comments">Comentarios</label></td> 
+                <td><textarea></textarea></td>
+              </tr>
+              <tr>
+                <td colspan="2"><center><button type="submit">Enviar</button></center></td>
+            </tr> 
+           
+          </table></center>
+    </form>
+</body>
+</html>
