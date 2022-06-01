@@ -1,0 +1,161 @@
+<!-- Author: Rafael Fonseca -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Carrito | Tienda Electronica</title>
+</head>
+<style>
+    img {
+        width: auto;
+        height: auto;
+    }
+
+    table {
+        width: 80%;
+        border: 1px solid black;
+        border-collapse: collapse;
+
+    }
+
+    th {
+        background-color: rgb(146, 155, 251);
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #cart {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    td {
+        border-collapse: collapse;
+        background-color: beige;
+        padding: 5px;
+        text-align: left;
+    }
+</style>
+</head>
+
+<body>
+    <center>
+        <img src="/assignments/fonsecaa/unit1/AS07MultiplePage/img/logo.png" alt="Logo Tech" />
+        <h1>Tienda Electronica</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        <a href="home.html">
+                            <center>Home</center>
+                        </a>
+                    </th>
+                    <th>
+                        <a href="aboutUs.html">
+                            <center>Acerca de Nosotros</center>
+                        </a>
+                    </th>
+                    <th>
+                        <a href="computers.html">
+                            <center>Computadoras</center>
+                        </a>
+                    </th>
+                    <th>
+                        <a href="phones.html">
+                            <center>Telefonos</center>
+                        </a>
+                    </th>
+                    <th>
+                        <a href="printers.html">
+                            <center>Impresoras</center>
+                        </a>
+                    </th>
+                    <th>
+                        <a href="envios.html">
+                            <center>Envios</center>
+                        </a>
+                    </th>
+                    <th>
+                        <a href="garantias.html">
+                            <center>Garantias</center>
+                        </a>
+                    </th>
+                    <th>
+                        <a href="Login.html">
+                            <center> <img src="/assignments/fonsecaa/unit1/AS07MultiplePage/img/log.png"
+                                    alt="Login icon">
+                            </center>
+                        </a>
+                    </th>
+                    <th style="background-color: rgb(234, 216, 241);">
+                        <center> <img src="/assignments/fonsecaa/unit1/AS07MultiplePage/img/cart.png" alt="Login icon">
+                        </center>
+                        </a>
+                    </th>
+                </tr>
+            </thead>
+        </table>
+        <h2>Carrito de Compras</h2>
+        <form>
+            <table id="cart">
+                <tr>
+                    <td></td>
+                    <td>Producto</td>
+                    <td>Precio</td>
+                    <td>Cantidad</td>
+                    <td>Subtotal</td>
+                </tr>
+                <tr>
+                    <td><img src="/assignments/fonsecaa/unit1/AS07MultiplePage/img/comu1.jpg" alt="Laptop" width="10px"
+                            height="auto" /></td>
+                    <td>Laptop</td>
+                    <td>$1,000</td>
+                    <td>
+                        <input type="number" name="quantity" min="1" max="10" value="1" />
+                    </td>
+                    <td>$1,000</td>
+                </tr>
+                <tr>
+                    <td><img src="/assignments/fonsecaa/unit1/AS07MultiplePage/img/cl1.jpg" alt="Phone" /></td>
+                    <td>Phone</td>
+                    <td>$500</td>
+                    <td>
+                        <input type="number" name="quantity" min="1" max="10" value="1" />
+                    </td>
+                    <td>$500</td>
+                </tr>
+                <tr>
+                    <td><img src="/assignments/fonsecaa/unit1/AS07MultiplePage/img/priter1.jpg" alt="Printer" /></td>
+                    <td>Printer</td>
+                    <td>$1,000</td>
+                    <td>
+                        <input type="number" name="quantity" min="1" max="10" value="1" />
+                    </td>
+                    <td>$1,000</td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="text-align:right"><b>Total:</b></td>
+                    <td><b>$2,500</b></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Actualizar" />
+                    </td>
+                    <td>
+                        <input type="reset" value="Reset" />
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </center>
+</body>
+
+</html>
