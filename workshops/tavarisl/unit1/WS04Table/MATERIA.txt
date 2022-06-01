@@ -26,18 +26,49 @@ Deber : usando solo html dibujar a la tabla con separacion de espacios, lineas, 
 
 
 
+__________SERVER'S___________
+
+Programas que intrpretaban detras del servidor antes se llamaban Gis
+
+
+PHp    LAMP = Apache, MySQL, Php, Perl, Python, MariaDB
+       MAMP = 
+       WAMP
+
+JavaServerPage now JakartaSP(JSP)   glassFish
+                                    Apache Tomcat
+                                    Payara
+
+javaEnterpriceServer now JakartaEE (JEE)
+____________CLOUD_______
+
+Oracle ---> Company --> Oracle DB
+                        MySQL    
 
 
 
+Publica encripta y privada desencripta
+
+http puerto 80
+https puerto 443
+ssl genera claves publicas y privadas
 
 
 
+501-503 mal programacion backend
 
+404- No se encontro el archivo 
 
+200 Todo esta bien
 
+TDD 
 
+EL PROYECTO DEBE CONTENER FRAMES PARA EL VIERNES (CONSULTA)
+FRAMES AÑO 95
 
+FRAMEWORD'S AÑO 2020
 
+Deploy ( levanta los puertos y servicios )
 
 
 
