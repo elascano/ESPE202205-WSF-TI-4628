@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>		
+		<head>
+			<title>Apartments Home</title>
+		</head>
+		
+		<body bgcolor="#F5FFFA">
+		<center><table border="1" width="400">
+		<td><b><center><a href="buy.html"><font color = "#191970">Buy an Apartment</font></a></center></b></td>
+		<td><b><center><a href="rental.html"><font color = "#191970">Rental an Apartment</font></a></center></b></td>
+		<td><b><center><a href="services.html"><font color = "#191970">Our Services</font></a></center></b></td>
+		<td><b><center><font color = "#000000">Form to clients</font></center></b></td>
+		</table></center><br>
+		
+		<center><table> 
+		<tr>
+			<td><h1><center><font color = "#1E90FF">Form for the client</h1></center></td>
+		</tr>
+		<tr>
+			<td><h3><center><font color = "#1E90FF">Please, healp us with your opinion and some information</h3></center></td>
+		</tr>
+		</table></center>
+		
+		<center><table border="1">
+			<tr>
+				<td><b><label for="txtId">Identify Card</label></b></td>
+				<td><input size="8" type="text" id="txtId" name="txtId" required></td>
+			</tr>
+			
+			<tr>
+				<td><b><label for="txtfullName">Full Name</label></b></td>
+				<td><input size="30" type="text" id="txtfullName" name="txtfullName"></td>
+			</tr>
+			
+			<tr>
+				<td><b><label for="txtphoneNumber">Phone Number</label></b></td>
+			    <td><input size="10" type="text" id="txtphoneNumber" name="txtphoneNumber" value="10" maxlength="10"></td>
+			</tr>
+			
+			<tr>
+			 <td><b><label for="radioGender">Gender</label></b></td>
+			 <td>
+				<input type="radio" id="male" name="Gender" value="M" checked>
+				<label for="male">M</label>
+				<br>
+				<input type="radio" id="female" name="Gender" value="F">
+				<label for="female">F</label>
+		     </td>
+			</tr>
+			
+			<tr>
+				<td><b><label for="txtlocation">Your location</label></b></td>
+				<td><textarea></textarea></td>
+			</tr>			
+			
+			<tr>
+				<td><b><label for="cmbCountryOfOrigin">Country of Origin</label></b></td>
+				<td>
+				  <select id="cmbCountry" name="cmbCountry">
+				    <option>Select*</option>
+				  	<option>United States</option>
+					<option>Spain</option>
+					<option>Portugal</option>
+					<option>Brazil</option>
+					<option>Italy</option>
+					<option>Ecuador</option>
+					<option>Colombia</option>
+					<option>Argentina</option>
+					<option>France</option>
+					<option>Germany</option>
+				  </select>
+				</td>
+			</tr>
+			
+			
+			<tr>
+				<td><b><label for="radioApartment">Apartment type</label></b></td>
+			    <td>
+				<input type="checkbox" id="Simple" name="Apartment" value="Simple" checked>
+				<label for="checkbox">Simple</label>
+				<br>
+				<input type="checkbox" id="floors" name="Apartment" value="floors">
+				<label for="checkbox">+2 floors</label>
+				<br>
+				<input type="checkbox" id="center" name="Apartment" value="center">
+				<label for="checkbox">Around center</label>
+				<br>
+				<input type="checkbox" id="pool" name="Apartment" value="pool">
+				<label for="checkbox">With pool</label>				
+		        </td>
+			</tr>		
+			
+			<tr>
+				<td><b><label for="radiobudget">Your budget</label></b></td>
+			    <td>
+				<input type="checkbox" id="few" name="budget" value="few" checked>
+				<label for="checkbox">USD 100-300</label>
+				<br>
+				<input type="checkbox" id="three" name="budget" value="three">
+				<label for="checkbox">USD 301-600</label>
+				<br>
+				<input type="checkbox" id="six" name="budget" value="six">
+				<label for="checkbox">USD 601-1000</label>
+				<br>
+				<input type="checkbox" id="more" name="budget" value="more">
+				<label for="checkbox">+1000</label>				
+		        </td>
+			</tr>	
+			</table></center>
+			<br>
+			<br>
+			
+			<center><table>
+			<tr>				
+				<td colspan="2"><center><button type="submit">Enviar</button></center></td>
+			</tr>		
+			</table></center>
+		
+		<a href="apartmentsHome.html">GO HOME</a>	
+		</body>
+</html>
