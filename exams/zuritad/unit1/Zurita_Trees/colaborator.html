@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Helping the trees</title>
+    </head>
+    <style>
+        table,td{
+			border: 1px solid black;
+			border-collapse: collapse;
+            background-color: rgb(87, 215, 240);
+			
+		}
+		td{
+			padding: 10px;
+		}
+		tr:nth-of-type(1) > th{
+			background-color: orange;
+		}
+        body{
+            background: url(ImagenesProyecto/fondo_registro_user.jpg);
+            background-size: cover;
+        }
+        a{
+			font-size: 35px;
+			padding: 0 10;
+			text-decoration: none;
+			color: white;
+		}
+		a:hover{
+			background-color: white;
+			color: black;
+		}
+		a.active{
+			background-color: white;
+			color: black;
+		}
+
+		div{
+			background-color: black;
+
+		}
+
+    </style>
+    <body>
+        <div>
+			<center><a href= "Home.html">Home</a>
+			<a href= "kinds.html">Kinds of trees</a>
+			<a href= "sale.html">Sale of seeds</a>
+			<a class="active" href= "colaborator.html">Be a collaborator</a></center>
+		</div>
+        <br>
+        <center><h1>Registro de Usuario</h1></center>
+        <form >
+            <center><table>
+                <tr>
+                    <td>
+                        <label for="names">Name: </label><br>
+                        <input type="text" id="names" name="Name" placeholder="enter your names">
+                    </td>
+                    <td>
+                        <label for="lastnames">Lastname: </label><br>
+                        <input type="text" id="lastnames" name="Lastname" placeholder="enter your last names">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phone">Phone number</label><br>
+                        <input type="text", id="number", name="phone" maxlength="10" size="14">
+                    </td>
+                    <td>
+                        <label for="mail">Email adress</label><br>
+                        <input type="text", id="mail", name="mailuser" size="20">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="nameuser">Create username</label><br>
+                        <input type="text", id="nameuser", name="username" size="20">
+                    </td>
+                    <td>
+                        <label for="password">Create password</label><br>
+                        <input type="text", id="password", name="pass" size="20">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="datebirth">Date of Birth</label><br>
+                        <input type="date">
+                    </td>
+                    <td>
+                        <label for="position">Occupation</label><br>
+                        <select name="positionEmployer" id="position">
+                            <option value="1">Student</option>
+                            <option value="2">Employee</option>
+                            <option value="3">Entrepreneur</option>
+                            <option value="4">Housewife</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <center>
+                            <input type="submit" value="SEND" style="background-color:rgb(54, 255, 47)">
+                            <input type="submit" value="CANCEL" style="background-color:rgba(255, 0, 0, 0.949)">
+                        </center>
+                    </td>
+                </tr>
+            </table></center>
+        </form>
+    </body>
+</html>
