@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> DElIFRESH </title>
+	</head>
+	
+	<style type>
+		body{
+			height: 100%; 
+			font-family: 'Noto Sans', sans-serif;
+			background-color: purple; 
+		}
+		
+		form{
+			width: 380px; 
+			height: auto;
+			margin: 20px auto;
+			border-radius: 10px;  
+			padding-top: 30px;
+			padding-bottom: 20px;  
+			background-color: #fbfbfb; 
+			padding-left: 5px; 
+		}
+		
+		a{
+			text-decoration: none;
+		}
+	</style>
+	
+	<body>
+		<table width="100%" bgcolor="black">
+			<tr>
+				<td><b><a href="Inicio.html"><center><font face="Verdana" color="white" size="4"> Inicio</font></center></a></b></td>
+				<td><b><a href="Menu.html"><center><font face="Verdana" color="white" size="4"> Menú </font></center></a></b></td>
+				<td><b><a href="Promociones.html"><center><font face="Verdana" color="white" size="4"> Promociones </font></center></a></b></td>
+				<td><b><a href="Registro.html"><center><font face="Verdana" color="white" size="4"> Registrate </font></center></a></b></td>
+			</tr>
+		</table>
+		
+		<H1><center><font face="Impact" color="black"> Registrate </font></center></H1>
+
+		<center>
+		<form>
+			<table>
+				<tr>
+					<td><font face="Arial" color="black" size="4"><label for="ID"> ID: </label></font></td>
+				</tr>
+				
+				<tr>	
+					<td><input type="text" id="ID" name="ID" placeholder="Escribe tu identidficación"></td>
+				</tr>
+				
+				<tr>
+					<td><br /><font face="Arial" color="black" size="4"><label for="Nombre"> Nombre: </label></font></td>
+				</tr>
+				
+				<tr>	
+					<td><input type="text" maxlength="30" id="Nombre" name="Nombre" placeholder="Escribe tu nombre"></td>
+				</tr>
+				
+				<tr>
+				<td><br /><font face="Arial" color="black" size="4"><label for="Email"> Email: </label></font></td>
+				</tr>
+				
+				<tr>
+					<td><input type="email" id="Email" name="Email" required placeholder="Escribe tu email"></td>
+				</tr>
+				
+				<tr>
+					<td><br /><font face="Arial" color="black" size="4"><label for="contrasena"> Contraseña: </label></font></td>
+				</tr>
+				
+				<tr>
+					<td><input type="password" id="contrasena" name="contrasena" required placeholder="Escribe tu contraseña"></td>
+				</tr>
+
+				<tr>
+					<td><br /><font face="Arial" color="black" size="4"><label for="sexo"> Sexo: </label></font></td>
+				</tr>
+				
+				<tr>
+					<td><input type="radio" id="masculino" name="sexo" value="M" checked>
+					<label for="masculino"> Masculino </label><br />
+					<input type="radio" id="femenino" name="gender" value="F">
+					<label for="femenino"> Femenino </label></td>
+				</tr>
+				
+				<tr>
+					<td><br /><font face="Arial" color="black" size="4"><label for="number"> Numero Telefonico: </label></font></td>
+				</tr>
+				
+				<tr>
+					<td><input type="tel" id="number" name="number" required placeholder="Escriba su número telefonico"></td>
+				</tr>
+				
+				<tr>
+					<td><br /><font face="Arial" color="black" size="4"><label for="Nacimiento"> Fecha de Nacimiento: </label></font></td>
+				</tr>
+				
+				<tr>
+					<td> Day:
+					<select id="Dia_nacimiento" name="Dia_nacimiento">
+						<option value="1"> 1 </option>
+						<option value="2"> 2 </option>
+						<option value="3"> 3 </option>
+						<option value="4"> 4 </option>
+						<option value="5"> 5 </option>
+						<option value="6"> 6 </option>
+						<option value="7"> 7 </option>
+						<option value="8"> 8 </option>
+						<option value="9"> 9 </option>
+						<option value="10"> 10 </option>
+						<option value="11"> 11 </option>
+						<option value="12"> 12 </option>
+						<option value="13"> 13 </option>
+						<option value="14"> 14 </option>
+						<option value="15"> 15 </option>
+						<option value="16"> 16 </option>
+						<option value="17"> 17 </option>
+						<option value="18"> 18 </option>
+						<option value="19"> 19 </option>
+						<option value="20"> 20 </option>
+						<option value="21"> 21 </option>
+						<option value="22"> 22 </option>
+						<option value="23"> 23 </option>
+						<option value="24"> 24 </option>
+					</select> Month:
+					
+					<select id="Mes_nacimiento" name="Mes_nacimiento">
+						<option value="1"> 1 </option>
+						<option value="2"> 2 </option>
+						<option value="3"> 3 </option>
+						<option value="4"> 4 </option>
+						<option value="5"> 5 </option>
+						<option value="6"> 6 </option>
+						<option value="7"> 7 </option>
+						<option value="8"> 8 </option>
+						<option value="9"> 9 </option>
+						<option value="10"> 10 </option>
+						<option value="11"> 11 </option>
+						<option value="12"> 12 </option>
+					</select> Year:
+					
+					<select id="Anio_nacimiento" name="Anio_nacimiento">
+						<option value="2000"> 2000 </option>
+						<option value="2001"> 2001 </option>
+						<option value="2001"> 2002 </option>
+						<option value="2004"> 2004 </option>
+						<option value="2005"> 2005 </option>
+						<option value="2006"> 2006 </option>
+						<option value="2007"> 2007 </option>
+						<option value="2008"> 2008 </option>
+						<option value="2009"> 2009 </option>
+					</select>
+					</td>
+				</tr>
+				
+				<tr>
+					<td><br /><font face="Arial" color="black" size="4"><label for="Descripcion"> Descripción: </label></font></td>
+				</tr>	
+				
+				<tr>
+					<td><textarea name="Descripcion" placeholder="Escriba una descripcion"></textarea></td>
+				</tr>
+				
+				<tr>
+					<td><br/><center><input type="submit"></center></td>
+				</tr>
+			</table>
+		</form>
+		</center>
+	</body>
+</html>
