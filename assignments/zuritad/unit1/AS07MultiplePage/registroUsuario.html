@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ProWeb Gestor</title>
+    </head>
+    <style>
+        table,td{
+			border: 1px solid black;
+			border-collapse: collapse;
+            background-color: rgb(87, 215, 240);
+			
+		}
+		td{
+			padding: 10px;
+		}
+		tr:nth-of-type(1) > th{
+			background-color: orange;
+		}
+        body{
+            background: url(ImagenesProyecto/fondo_registro_user.jpg);
+            background-size: cover;
+        }
+        a{
+			font-size: 25;
+			padding: 0 10;
+			text-decoration: none;
+			color: white;
+		}
+		a:hover{
+			background-color: white;
+			color: black;
+		}
+		a.active{
+			background-color: white;
+			color: black;
+		}
+
+		div{
+			background-color: black;
+
+		}
+
+    </style>
+    <body>
+        <div>
+			<center><a href= "ProyectoHome.html">Home</a>
+			<a href= "ProyectoProductRegistration.html">Registro de Productos</a>
+			<a class="active" href= "registroUsuario.html">Registro usuario</a>
+			<a href= "proyectoLogin.html">cerrar sesion</a></center>
+		</div>
+        <br>
+        <center><h1>Registro de Usuario</h1></center>
+        <form >
+            <center><table>
+                <tr>
+                    <td>
+                        <label for="names">Nombres: </label><br>
+                        <input type="text" id="names" name="Name" placeholder="Ingrese sus nombres">
+                    </td>
+                    <td>
+                        <label for="lastnames">Apellidos: </label><br>
+                        <input type="text" id="lastnames" name="Lastname" placeholder="Ingrese sus apellidos">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phone">Numero de celular</label><br>
+                        <input type="text", id="number", name="phone" maxlength="10" size="14">
+                    </td>
+                    <td>
+                        <label for="mail">Correo electronico</label><br>
+                        <input type="text", id="mail", name="mailuser" size="20">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="nameuser">Crear nombre de usuario</label><br>
+                        <input type="text", id="nameuser", name="username" size="20">
+                    </td>
+                    <td>
+                        <label for="password">Crear contraseña</label><br>
+                        <input type="text", id="password", name="pass" size="20">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="datebirth">Fecha de nacimiento</label><br>
+                        <input type="date">
+                    </td>
+                    <td>
+                        <label for="position">Cargo empleado</label><br>
+                        <select name="positionEmployer" id="position">
+                            <option value="1">Auxiliar Farmaceutico</option>
+                            <option value="2">Soporte Tecnico</option>
+                            <option value="3">Gerente</option>
+                            <option value="4">Dueño o Franquiciado</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <center>
+                            <input type="submit" value="REGISTRARSE" style="background-color:rgb(54, 255, 47)">
+                            <input type="submit" value="CANCELAR" style="background-color:rgba(255, 0, 0, 0.949)">
+                        </center>
+                    </td>
+                </tr>
+            </table></center>
+        </form>
+    </body>
+</html>
