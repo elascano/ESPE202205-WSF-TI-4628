@@ -1,0 +1,14 @@
+Inspector Team#4 (DevelopersTeam)
+
+Project
+30 - code standards (NO usar CSS en perfil, Quienes Somos, Registro,Menú,Principal, contactos)
+(Variables input en español, debe estar en inglés)
+0 - Visual Deagram
+
+Execution
+12,50 - 4 web Page + 4 forms (solo tienen un formulario)
+20 - main Page + logo.
+20 - navegation
+16,50 - Visual Consistency (El color rojo es muy fuerte , no contrasta con el contenido.
+Y el tamaño de la letra es pequeña
+20- QUERY - STRING 
