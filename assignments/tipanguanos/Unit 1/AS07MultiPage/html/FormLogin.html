@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PROYECTO</title>
+</head>
+
+<body background="../img/fondo6.jpg">
+<table width="75">
+  <tbody>
+    <tr>
+		<th><a href="Login.html"><img src="../img/volver.jpg" width="30" height="30" alt="Volver"></a></th>
+    </tr>
+  </tbody>
+</table>
+<center>
+  <table style="border:2px solid DodgerBlue;" width="200" border="1">
+<tbody>
+    <tr>
+      <th scope="col"><img src="../img/1.png" width="500" height="119" alt=""/></th>
+    </tr>
+  </tbody>
+</table>
+  <br>
+</center>
+  <br>
+<h1>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ¡Regístrate!&nbsp;</h1>
+<table   style="border:2px solid DodgerBlue;" rules="rows" border="1" align="center" height="570" width="550">
+    <form>
+		<tr>
+			<td><label for="zona"></label>
+				<select  name="zona" id="zona">   
+					<option value="1">Cedula</option>
+					<option value="2">Pasaporte</option>
+				</select>
+			</td>
+			<td><input type="text" name="identificación" size="45" placeholder="Identificacion"/></td>
+		</tr>
+	
+		<tr>
+			<td><input type="text" name="nombre" placeholder="Primer Nombre"/></td>
+			<td><input type="email" name="correo"  size="45" placeholder="Segundo Nombre"/></td>
+		</tr>
+		  
+		<tr>
+			<td><input type="text" name="apellido1" placeholder="Primer Apellido"/></td>
+			<td><input type="text" name="apellido2"  size="45" placeholder="Segundo Apellido"/></td>
+		</tr>
+	   
+		<tr>
+			<td>Sexo:</td>
+			<td><label for="sexo" required>
+            <input type="radio" name="sexo" value="M"> Hombre
+            <input type="radio" name="sexo" value="H"> Mujer
+          </label></td>
+		</tr>
+		  
+		<tr>
+			<td>Fecha de Nacimiento</td>
+			<td><input type="date" size="45" name="datetime_control " min="1996-07-09" max="2023-12-31" /></td>
+		</tr>
+		<tr>
+			<td><input type="email" name="correo" placeholder="Correo" required /></td>
+			<td><input type="tel " name="tel_control " size="45" placeholder="Celular" required /></td>
+		</tr>	  
+	  <tr>
+			<td><select name="pais">
+				<optgroup label="Provincias">
+					<option value="1" title="1">Provincia</option>
+					<option value="2" title="2">ORELLLANA</option>
+					<option value="3" title="3">MANABI</option>
+					<option value="4" title="4">LOS RIOS</option>
+					<option value="5" title="5">ESMERALDAS</option>
+					<option value="6" title="6">EL ORO</option>
+					<option value="7" title="7">CHIMBORAZO</option>
+					<option value="8" title="8">COTOPAXI</option>
+				</optgroup>
+		</select></td>
+		<td><select name="pais">
+				<optgroup label="Ciudades">
+					<option value="1" title="1">Ciudades</option>
+					<option value="2" title="2">QUITO</option>
+					<option value="3" title="3">LATACUNGA</option>
+					<option value="4" title="4">AMBATO</option>
+					<option value="5" title="5">GUAYAQUIL</option>
+					<option value="6" title="6">CUENCA</option>
+					<option value="7" title="7">PORTOVIEJO</option>
+					<option value="8" title="8">SANTO DOMINGO</option>
+				</optgroup>
+          </select></td>
+		</tr>
+		<tr>
+			<td>Recomendaciones</td>
+			<td><textarea spellcheck="true" cols="50" rows="10"> Escriba aqui sus recomendaciones </textarea></td>
+			
+		<tr>
+			<td><input align="right" type="submit" value="Send" />
+			<input type="reset" value="Reset"/></td>
+			<td><input type="checkbox" name="chbox" > <span>Desea recibir noticias referentes a nuestra web</span></td>
+		
+		</tr> 
+		</tr>   
+  </form>
+</table>
+<center>
+  <img src="../img/pie2.png" width="900" height="148" alt=""/>
+  <br>
+</center>
+</body>
+</html>
