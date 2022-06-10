@@ -1,0 +1,12 @@
+Inspector Team#4 (DevelopersTeam)
+
+Project
+30 - code standards
+0 - Visual Deagram
+
+Execution
+12,50 - 4 web Page + 4 forms
+20 - main Page + logo
+20 - navegation
+16,50 - Visual Consistency 
+20 - QUERY - STRING 
