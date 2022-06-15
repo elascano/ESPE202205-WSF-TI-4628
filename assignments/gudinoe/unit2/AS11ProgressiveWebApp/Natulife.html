@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="Web Developer es un canal de Youtube que nace con el unico proposito de ayudar a la comunidad que esta en modo aprender de la mejor manera." />
+    <meta name="keywords" content="Copia de Urian Viera"/>
+    <meta name="author" content="Web Developer" />
+    <meta name="copyright" content="Web Developer" />
+    <meta name="language" content="es-CO"/>
+
+    <title>PWA :: Canal WEB DEVELOPER</title>
+    <link type="text/css" rel="shortcut icon" href="imgs/favicon.ico"/>
+    <link rel="stylesheet" href="css/home.css">
+
+
+  
+    <link rel="manifest" href="./manifest.json"> 
+  
+
+
+    <meta name="theme-color" content="#2F3BA2">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+
+    <link rel="apple-touch-icon" href="./pwa/images/icons/icon-72x72.png" />
+
+    <meta name="apple-mobile-web-app-status-bar" content="#db4938" />
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #fff !important">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" rel="noopener" aria-current="page" href="#">Perfil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" rel="noopener" href="#">Contacto</a>                                     
+            </li>
+          </ul>
+          <label>Buscar <input type="text" id="Name" name="Name" /></label>
+        </div>
+      </div>
+    </nav>
+ 
+
+  <div class="cargando">
+      <div class="loader-outter"></div>
+      <div class="loader-inner"></div>
+  </div>
+
+ 
+    <div class="caja">
+      <img src="https://www.caracteristicas.co/wp-content/uploads/2018/12/veganismo-1-e1585011571609.jpg" class="img-fluid" alt="">
+      <div class="cont">
+        <h1>Bienvenid@s a Natulife</h1>
+      </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+      <div class="row mb-5">
+        <div class="col-md-12">
+          <h1 class="text-center mt-5 mb-5">
+           <span style="color: green; font-size: 50PX;"> <FONT FACE="times new roman"><i> "NO LE QUITA NADA AL SER HUMANO SER AMABLE CON EL ANIMAL" </i></FONT></span>
+            <br>
+          </h1>
+        </div>
+        <div>
+            <h1 style="color: rgb(102, 102, 102);"></h1>
+            <h1 class="text-center mt-5 mb-5">
+              <span style="color: black; font-size: 50PX;"> <FONT FACE="times new roman"><i> Si quieres probar algo diferente, rico y saludable, estas cenas vegetarianas y veganas son para ti. </i></FONT></span>
+               <br>
+             </h1>
+          </div>
+        <div class="row mb-5 text-center p-3" style="border-radius: 10px; background-color: #f1f1f1;">
+          <div class="col-md-12">
+            <h1 style="color: rgb(85, 85, 85);">Ofrecemos:</h1>
+            <p>
+              <ol>
+                <li> <strong>Platillos Principales:</strong></li>
+                  <img src="https://dam.cocinafacil.com.mx/wp-content/uploads/2018/03/platillos-vegetarianos-768x430.jpg"  class="img-fluid" alt="img-fluid">
+                  <li>	<strong>Snacks:</strong></li>
+                  <img src="https://www.cuerpomente.com/medio/2020/02/24/snack-saludable-express-yogur-fruta-frutos-secos_bacb189e_1200x630.jpg"  class="img-fluid" alt="">
+                  <li>	<strong>Bebidas:</strong></li>
+                  <img src="https://mejorconsalud.as.com/wp-content/uploads/2018/06/zumos-frutas-natural.jpg"  class="img-fluid" alt="">
+
+
+                  </li>
+              </ol>
+            </p>
+          </div>
+        </div>
+
+    <footer class="footer mt-auto py-3 bg-light mt-5" style="background-color: rgb(8, 8, 8) !important;">
+      <div class="container">
+        <span class="text-muted">Natulife. </span>
+      </div>
+    </footer>
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./regist_serviceWorker.js"></script> 
+    <script>
+      $(function(){
+    //Precarga de la pagina se ejecuta solo una vez
+    setTimeout(
+        ()=>{
+            $(".cargando").hide(); 
+         } , 50
+     );
+     });
+    </script>
+    </body>
+</html>
