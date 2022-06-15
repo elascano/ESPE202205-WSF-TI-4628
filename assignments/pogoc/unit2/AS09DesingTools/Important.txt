@@ -1,2 +1,2 @@
-To be able to see the generated HTML code it is necessary to have the application installed.
+To be able to see the generated (HTML, CSS, JavaScript) code it is necessary to have the application installed.
 The application that was used was RocketCake.
