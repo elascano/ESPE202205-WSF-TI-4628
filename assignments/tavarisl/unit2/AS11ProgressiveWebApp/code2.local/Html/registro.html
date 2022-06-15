@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Discos Vinilo</title>
+	   <title>Registro</title>
+		 <style>
+	    table, td{	
+		 border: 0.5px solid #DCD3D1;
+		 border-collapse: collapse;
+		}
+        td{
+		  padding: 10px;
+		  text-align: left;
+		}		
+	  </style>
+	 
+  </head>
+  
+  <body style="background-color:#fadbd8">
+  
+  <center><table style="background-color:#fdedec ; width:75% " border="0" >
+
+	   <tr>
+	   <td> <a href="../Principal.html">Inicio</a></td>
+	   <td> <a href="quienesSomos.html">Quienes Somos</a> </td>
+	   <td> <a href="catalogo.html">Catálogo de vinilos</a> </td>
+	   <td>Suscribete</td>	   		 
+	   </tr>   
+	
+
+</table></center>
+    
+	 <center><table style="width: 100%">
+	     <td style="background-color:#ebdef0" colspan="4"><center>
+		 <img src="Img/Portada.jpg" width="1000"></center></td>
+     </table></center>
+	
+	 <hr/>
+	 <center><i><h2>Suscripción</h2></i></center>
+	
+	 <hr/>
+<form>
+       <center> <table>
+	     <tr>
+		<td colspan="4"><h4> Completa estos parametros para el envio adecuado de sus productos </h4> </td>
+		</tr>
+
+            <tr>
+                <td>
+                    <label for="txtFullName">Nombre:</label>
+                </td>
+				 <td>
+                    <input type="text" name="txtFullName" id="txtFullName" size="20" maxlength="30" required>
+                </td>
+              
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="txtImail">Número de teléfono o correo electronico</label>
+                </td>
+                <td>
+                    <input type="text" name="txtImail" id="txtImail" size="20" maxlength="50" required>
+                </td>
+            </tr>
+			 <tr>
+                <td>
+                    <label for="txtBirthDate">Fecha de Nacimiento;</label>
+                </td>
+                <td>
+                    <input type="date" name="trip-txtBirthDate" id="txtBirthDate" value="2022-05-26" min="1953-01-01" 
+					max="2022-12-31" required>
+                </td>
+            </tr>
+			 <tr>
+	  <td><input type="radio" id="male" name="Gender" value="M"></input> <label tor="Gender">Male </label></td>
+	  <td><input type="radio" id="Female" name="Gender" value="F"></input> <label tor="Gender">Female</label></td>
+	  </tr>
+			 <tr>
+                <td>
+                    <label for="txtDireccion">Dirección domiciliaria:</label>
+                </td>
+                <td>
+                    <input type="text" name="txtDireccion" id="txtDireccion" size="20" maxlength="70" required>
+                </td>
+            </tr>
+			<tr>
+                <td>
+                    <label for="genero">Genero de Musica:</label>
+                </td>
+                <td>
+                    <select name="genero" id="genero" size="4" multiple required>
+					<option value="Romantico">Romantico</option>
+					<option value="Rock">Rock</option>
+					<option value="Pop">Pop</option>
+					<option value="Salsa">Salsa</option>
+					<option value="Baladas">Baladas</option>
+					</select>
+                </td>
+            </tr>
+			
+			<tr>
+                <td>
+                    <label for="txtArea">Describe tu gusto:</label>
+                </td>
+                <td>
+                    <textarea  name="txtArea" id="txtArea" rows="8" cols="20" required></textarea>
+                </td>
+            </tr>
+			
+			 <tr>
+                <td>
+                    <label for="txtDireccionEnvio">Dirección de envio:</label>
+                </td>
+                <td>
+                    <input type="text" name="txtDireccionEnvio" id="txtDireccionEnvio" size="20" maxlength="70" required>
+                </td>
+            </tr>
+	         <tr>
+                <td>
+                    <label for="txtTarjeta">Tarjeta de credito:</label>
+                </td>
+                <td>
+                    <input type="text" name="txtTarjeta" id="txtTarjeta" size="20" maxlength="19" required>
+                </td>
+            </tr>
+
+ <tr>
+               <td>
+                    <label for="txtPassword">Ingrese una contraseña:</label>
+                </td>
+				 <td>
+                    <input type="password" name="txtPassword" id="txtPassword" 
+					 placeholder="Elije una contraseña" size="20"
+					 maxlength="30" alt="strongPass" required>
+                </td> 
+			
+			</tr>
+			 <tr>
+               <td>
+                    <label for="txtPassword">Ingrese de nuevo la contraseña:</label>
+                </td>
+				 <td>
+                    <input type="password" name="txtPassword" id="txtPassword" 
+					 placeholder="Repita la contraseña" size="20" maxlength="30" required>
+                </td> 
+</tr>				
+			
+               <tr>
+                <td colspan="4" >
+                   <center> <button type="submit" value="Registrarse" >
+				   <a href="../Principal.html">Completar</button></center></a>
+                </td>
+
+            </tr>
+        </table></center>
+        </form>
+	
+	 
+  </body>
+
+
+</html>
