@@ -1,0 +1,59 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+header {
+	width:100%;
+}
+
+img {
+    border: 1px solid violet;
+    border-radius: 10px;
+}
+body {
+    background-image: url('https://marketplace.canva.com/EAD-Ck-LnP0/1/0/1600w/canva-arco%C3%ADris-gradiente-rosa-naranja-y-azul-fondo-virtual-para-zoom-VwJMC37j5jQ.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+table {
+    border-collapse: collapse;
+    width: 150%;
+    box-sizing: border-box;
+}
+
+th {
+    border-bottom: 1px solid #ddd;
+}
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.main {
+    width: 70%;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+
+footer {
+    clear: both;
+    float: left;
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+}
+
+@media screen and (max-width: 910px){
+    
+   header table tr th {
+        display:block;
+        float:none;
+        border-bottom:1px solid rgba(255,255,255, .3);
+    }
+}
