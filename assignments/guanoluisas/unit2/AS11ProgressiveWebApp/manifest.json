@@ -1,0 +1,17 @@
+{
+    "name": "AS11ProgressiveWebApp",
+    "short_name": "AS11ProgressiveWebApp",
+    "theme_color": "#ffe88a",
+    "background_color": "#F5FFFA",
+    "display": "#F5FFFA",
+    "orientation": "portrait",
+    "scope": "./",
+    "start_url": "./",
+    "icons": [
+        {
+            "src": "./imagen_icono.png",
+            "type": "image/png",
+            "sizes": "512x512",
+        }
+    ]
+}
