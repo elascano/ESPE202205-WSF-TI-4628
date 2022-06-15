@@ -1,0 +1,2 @@
+To be able to see the generated HTML code it is necessary to have the application installed.
+The application that was used was RocketCake.
