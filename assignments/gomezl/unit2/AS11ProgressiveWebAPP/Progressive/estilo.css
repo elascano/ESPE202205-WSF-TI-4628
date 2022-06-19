@@ -30,7 +30,6 @@ th {
     width: 80%;
     max-width: 1000px;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 .main {
@@ -51,9 +50,9 @@ footer {
 
 @media screen and (max-width: 910px){
     
-   header table tr th {
+    header table tr th {
+        width:100%;
         display:block;
         float:none;
-        border-bottom:1px solid rgba(255,255,255, .3);
-    }
-}
+     }
+ }
