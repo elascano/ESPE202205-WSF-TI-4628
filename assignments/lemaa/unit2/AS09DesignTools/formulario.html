@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html><head>
+   
+    <title>Formulario</title></head>
+
+<body>
+        <h2><center>ZAPATERIA MILAS</center></h2>
+        <h2><center>BIENVENIDOS A NUESTRO FORMULARIO</center></h2>
+    
+    <br>
+    <center><img style="width: 350px; height: 231px;" src="img%5Cbienvenidos.jpg">
+        <table>
+        <tbody><tr>
+            </tr>
+    </tbody></table></center>
+    <form>
+
+        <center><table style="background-color: rgb(236, 88, 216);" border="1" height="650" width="550"> 
+            
+              <tbody><tr>
+                <td><label for="nombres">Nombre:</label></td>
+                <td><input id="nombres" name="nombres" size="30" type="text"></td>
+              </tr>
+              <tr>
+                <td><label for="apellidos">Apellido:</label></td>
+                <td><input id="apellidos" name="apellidos" size="30" type="text"></td>
+              </tr>
+              <tr>
+              <td><label for="txtcédula">Cédula:</label></td>
+                 <td><input id="txtcédula" name="txtcédula" size="30" required="" type="text"></td>
+               </tr>
+              <tr>
+                <td><label for="edad">Edad:</label></td>
+                <td><input id="edad" name="edad" size="30" maxlength="2" type="text"></td>
+              </tr>
+              <tr>
+                <td><label for="fechaactual">Fecha Actual</label></td>
+                <td>
+                    <input type="date">
+                </td>
+              </tr>
+              <tr>
+                <td><label for="númerodeteléfono">Número De Teléfono:</label></td>
+                <td><input id="númerodeteléfono" name="númerodeteléfono" size="30" maxlength="10" type="text"></td>
+              </tr>
+              <tr>
+                <td><label for="género">Género</label></td>
+                <td><input name="género" value="opción" id="Feminino" type="radio">
+                    Femenino
+                  <br>
+                  <label>
+                    <input name="género" value="opción" id="Masculino&quot;" type="radio">
+                    Masculino</label></td>
+              </tr>
+              <tr>
+                    <td><label for="email">Correo:</label></td>
+                    <td><input id="email" name="email" size="30" type="text"></td>
+              </tr>
+
+                <tr><td><label for="queProductosUtilizasMas">Qué productos utilizas más</label></td>
+                <td><input name="checkbox" id="checkbox" type="checkbox">
+                    <label for="checkbox">Zapatos</label><br><input name="checkbox" id="checkbox" type="checkbox"><label for="checkbox">Pantuflas</label><br><input name="checkbox" id="checkbox" type="checkbox"> <label for="checkbox">Zapatillas</label><input name="checkbox" id="checkbox" type="checkbox"><label for="checkbox">Sandalias</label><br><input name="checkbox" id="checkbox" type="checkbox"><label for="checkbox">Pupos</label><br></td>
+              </tr>
+              <tr><td><label for="quenuevosproductostegustaria">Que nuevos productos te gustaría </label></td>
+                <td><select><option>Seleccione</option><option>mochilas</option><option>botas altas</option><option>correas</option></select></td>
+              </tr>
+              <tr>
+                <td><label for="comments">Comentarios</label></td> 
+                <td><textarea></textarea></td>
+              </tr>
+              <tr>
+                <td colspan="2"><center><button type="submit">Enviar</button></center></td>
+            </tr> 
+           
+          </tbody></table></center>
+    </form>
+</body></html>

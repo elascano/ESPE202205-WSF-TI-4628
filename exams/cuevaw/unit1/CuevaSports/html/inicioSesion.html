@@ -18,22 +18,62 @@
 				<th ><a href="productos.html">Products</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </th>	
 				<th><a href="informacion.html">Information</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
 		<br><br>
-		
 			</th>
 			</thead>
 		</table>
-      <p> <br>   <br>
-         <p><h2> Log In</h2></p>
+           <p> <br>   <br>
+            <p><h2> Log In</h2></p>
          <hr width="300">
-         <p><br>
-           <tr>
-             <td><LABEL for="txtE-mail">E-mail </LABEL>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-             <td><INPUT type="text" id="E-mail" maxlength="12" size="12"><BR></td>
-           </tr> 
-               <tr>
-             <td><LABEL for="txtPassword">Password</LABEL></td>
-             <td><INPUT type="text" id="Password" maxlength="12" size="12"><BR></td>
-           </tr> 
+           <p><br>
+           <form>
+		<table  width="70%" border="1""   >
+			<tr>
+				<td><LABEL for="txtfullname" >&nbsp;&nbsp;&nbsp;&nbsp; Name &nbsp;&nbsp;&nbsp;&nbsp;</LABEL></td>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;<INPUT type="text" name="txtfullname" id="txtfullname"  required><BR></td>
+			</tr>
+			<tr>
+				<td><LABEL for="txtAddress" >&nbsp;&nbsp;&nbsp;&nbsp;Address &nbsp;&nbsp;&nbsp;&nbsp;</LABEL></td>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;<INPUT type="text" name="txtAddress" id="txtAddress" required><BR></td>
+			</tr>
+			<tr>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;Male </td>
+				<td> &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="cbox1" value="Male"></td>
+				
+			</tr>
+				<tr>
+				<td><label>&nbsp;&nbsp;&nbsp;&nbsp;Female </label> </td>					
+				<td> &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="cbox1" value="Female"></td>
+			</tr>
+			  <tr>
+			  	<td><LABEL for="txtParish" >&nbsp;&nbsp;&nbsp;&nbsp;Parish &nbsp;&nbsp;&nbsp;&nbsp; </LABEL></td>
+			  	<td>
+				     &nbsp;&nbsp;&nbsp;&nbsp;<select name="cmbParish" id="cmbParish"required>
+					  <option value=" ">Selection</option>
+				      <option value="La Concepción">La Concepcion</option>
+				      <option value="Quiocentro Sur">Quiocentro Sur </option>
+				      <option value="Cochapamba ">Cochapamba  </option>
+				      <option value="Atahualpa">Atahualpa</option>
+				      <option value="Jipijapa">Jipijapa</option>
+				    </select>&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+				</td>
+			  </tr>
+
+			<tr>
+				<td><LABEL for="foneCellphone" >&nbsp;&nbsp;&nbsp;&nbsp;Cellphone &nbsp;&nbsp;&nbsp;&nbsp;</LABEL></td>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;<INPUT type="Cellphone" name="txtCellphone" id="txtCellphone" required><BR></td>
+			</tr>
+
+			<tr>
+				<td><LABEL for="txtemail" >&nbsp;&nbsp;&nbsp;&nbsp;E-Mail &nbsp;&nbsp;&nbsp;&nbsp;</LABEL></td>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;<INPUT type="email" name="txtemail" id="txtemail" required><BR></td>
+			</tr>
+			    <tr>
+                    <td colspan="2">
+                        <center><input id="button" type="submit" /></center>
+                    </td>
+                </tr>
+			</table>
+			</form>
             </p>
          </table>
 			<br><br>
