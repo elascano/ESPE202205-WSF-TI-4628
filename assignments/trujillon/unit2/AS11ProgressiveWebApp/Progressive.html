@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Progressive Web App </title>
+		<!--PWA-->
+		<link rel="manifest" href="./manifest.json"> 
+		<!---PWA--->
+
+		<!----METAS DE PWA-->
+		<meta name="theme-color" content="#2F3BA2">
+		<meta name="MobileOptimized" content="width">
+		<meta name="HandheldFriendly" content="true">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<link rel="shortcut icon" type="image/png" href="./Images/icon-512x512.png">
+		<link rel="apple-touch-icon" href="./Images/icon-512x512.png">
+		<link rel="apple-touch-startup-image" href="./Images/icons/icon-512x512.png">
+
+		<link rel="apple-touch-icon" href="./Images/icons/icon-192x192.png" />
+		<link rel="apple-touch-icon" href="./Images/icons/icon-256x256.png" />
+		<link rel="apple-touch-icon" href="./Images/icons/icon-384x384.png" />
+		<link rel="apple-touch-icon" href="./Images/icons/icon-512x512.png" />
+		<meta name="apple-mobile-web-app-status-bar" content="#db4938" />
+	</head>
+	
+	<style type="text/css">
+		body{
+			background: url('Images/Fondo_Maquillaje.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		
+		@media (min-whidth:700px){
+			.table#inicio{
+				flex-direction:column;
+				padding: 10px 5px;
+			}
+		}
+	</style>
+	
+	<body>
+			<table id="inicio" width="100%" bgcolor="black">
+				<tr>
+					<td><div style="text-align:center"><img src="Images/Logo_Maquillaje.jpg" style="width:50px;height:50px;"></div></td>
+					<td><b><div style="text-align:left"><font face="Times New Roman" color="Pink" size="12"> Beauty Store </font></div></b></td>
+					<td><b><center><font color="white" size="4"> Inicio </font></center></b></td>
+					<td><b><center><font color="white" size="4"> Servicios </font></center></b></td>
+					<td><b><center><font color="white" size="4"> Contactanos </font></center></b></td>
+				</tr>
+			</table>
+			
+			<br />
+			<br />
+			<br />
+			<center>
+			<table style="background-color:white; border: 1px solid black; padding: 10px;">
+				 <tr>
+					<td><center><img src="Images/Cosmetics.jpg" style="width:80%;height:150px;"></center>
+					<td>
+						<p> <font face="Times New Roman" color="Purple" size="4"> Cosmeticos </font>
+						<br />
+						<br />
+						Los cosméticos son aquellos productos que se utilizan sobre el cuerpo humano
+						<br />
+						con fines de limpieza, belleza o para alterar apariencia externa sin afectar el
+						<br />
+						funcionamiento o estructura del organismo </p>
+					</td>
+				 </tr>
+				 
+				 <tr>
+					<td><center><img src="Images/MakeUp.jpg" style="width:80%;height:150px;"></center>
+					<td>
+						<p> <font face="Times New Roman" color="Purple" size="4"> Maquillaje </font>
+						<br />
+						<br />
+						Se entiende por maquillaje, a la técnica destinada a realzar los rasgos faciales y 
+						<br />
+						simultáneamente disimular los defectos para conseguir mayor armonía. A pesar de
+						<br />
+						en un primer nivel de análisis el maquillaje pudiera parecer una técnica decorativa 
+						<br />
+						un tanto frívola, nada más lejos de la realidad. </p>
+					<td>
+				 </tr>
+			</table>
+			</center>
+		
+		<script src="./regist_serviceWorker.js"></script> 
+		
+	</body>
+</html>
