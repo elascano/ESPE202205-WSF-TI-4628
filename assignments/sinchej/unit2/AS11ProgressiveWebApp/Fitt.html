@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta name="Jonathan" content="Web Developer" />
+    <meta name="copyright" content="Web Developer" />
+    <meta name="language" content="es-CO"/>
+
+    <title>JonathanFit</title>
+    <link type="text/css" rel="shortcut icon" href="imgs/favicon.ico"/>
+    <link rel="stylesheet" href="css/home.css">
+
+
+  
+    <link rel="manifest" href="./manifest.json"> 
+  
+
+
+    <meta name="theme-color" content="#2F3BA2">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+
+    <link rel="apple-touch-icon" href="./pwa/images/icons/icon-72x72.png" />
+
+    <meta name="apple-mobile-web-app-status-bar" content="#db4938" />
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: rgb(142, 168, 179) !important">
+      <div class="container-fluid">
+        <center><a class="navbar-brand" href="#">HOME</a></center>
+       
+              <center><a class="nav-link active" rel="noopener" aria-current="page" href="#">PROFILE</a></center>
+            
+              <center><a class="nav-link" rel="noopener" href="#">CONTACT</a></center>                                     
+            </li>
+          </ul>
+          <p><center><label>Buscar <input type="text" id="Name" name="Name" /></label></center></p>
+        </div>
+      </div>
+    </nav>
+ 
+
+  <div class="cargando">
+      <div class="loader-outter"></div>
+      <div class="loader-inner"></div>
+  </div>
+
+ 
+    <div class="caja">
+      <img src="https://turbologo.com/articles/wp-content/uploads/2020/12/fitness.png" height="500px" width="700px">
+      <center><div class="cont"></div></center>
+        <center><span style="color:rgb(8, 8, 8)"<h1>Hello, welcome to your favorite place</h1></center>
+      </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+      <div class="row mb-5">
+        <div class="col-md-12">
+          <h1 class="text-center mt-5 mb-5">
+           <center><span style="color: rgb(115, 128, 0); font-size: 50PX;"> <FONT FACE="times new roman"><i> "WEAKNESS IS JUST THE PAIN COMING OUT OF YOUR BODY" </i></FONT></span></center>
+            <br>
+          </h1>
+        </div>
+        <div>
+            <h1 style="color: rgb(17, 231, 81);"></h1>
+            <h1 class="text-center mt-5 mb-5">
+              <center><span style="color: rgb(104, 9, 64); font-size: 50PX;"> <FONT FACE="times new roman"><i> In life as in the gym keep your back and head up </i></FONT></span></center>
+               <br>
+             </h1>
+          </div>
+        <div class="row mb-5 text-center p-3" style="border-radius: 10px; background-color: #f1f1f1;">
+          <div class="col-md-12">
+            <CENTER><h1 style="color: rgb(85, 85, 85);">LIST OF TRAININGS</h1></CENTER>
+            <p>
+              <ol>
+                <li> <strong>Strength exercises</strong></li>
+                  <img src="https://as01.epimg.net/deporteyvida/imagenes/2018/03/14/portada/1521050434_557929_1521050572_noticia_normal.jpg"  class="img-fluid" alt="" height="400px" width="500px">
+                  <li>	<strong>Calisthenics</strong></li>
+                  <img src="https://mrie.es/wp-content/uploads/Deportes/2018/07/061217-calistenia-1497286009892.jpg"  class="img-fluid" alt="" height="400px" width="500px">
+                  <li>	<strong>Cross fit</strong></li>
+                  <img src="https://cdn.andro4all.com/andro4all/2021/03/apps-para-hacer-crossfit.jpg"  class="img-fluid" alt="img-fluid" height="400px" width="500px">
+                  <li>	<strong>Dance therapy</strong></li>
+                  <img src="https://www.eluniverso.com/resizer/S4XXS09PeNekbxBbpQCxnd50lro=/1004x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/VASHMODX45HRRHVUAUUICREIEM.jpg"  class="img-fluid" alt="" height="400px" width="500px">
+                  <li>	<strong>supplements</strong></li>
+                  <img src="https://saludconlupa.com/media/images/1_Bj4dJnP.width-1920.jpg"  class="img-fluid" alt="" height="400px" width="500px">
+
+
+
+                  </li>
+              </ol>
+            </p>
+          </div>
+        </div>
+
+    <footer class="footer mt-auto py-3 bg-light mt-5" style="background-color: rgb(8, 8, 8) !important;">
+      <div class="container">
+        <span class="text-muted">JonathanFit. </span>
+      </div>
+    </footer>
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./regist_serviceWorker.js"></script> 
+    <script>
+      $(function(){
+    //Precarga de la pagina se ejecuta solo una vez
+    setTimeout(
+        ()=>{
+            $(".cargando").hide(); 
+         } , 50
+     );
+     });
+    </script>
+    </body>
+</html>
