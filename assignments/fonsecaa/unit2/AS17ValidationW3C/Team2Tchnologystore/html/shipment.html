@@ -1,0 +1,98 @@
+<!--Author Wendy Cueva-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+
+	<title>Shipment | Technology Store</title>
+
+	<link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+
+	<style>
+		html {
+			background: linear-gradient(to right, #b2e2f2, #b0f2c2);
+		}
+
+		h1 {
+			text-align: center;
+		}
+
+		table {
+
+			width: 70%;
+			border-collapse: collapse;
+			border: 1px solid black;
+			margin-left: auto;
+			margin-right: auto;
+
+		}
+
+		th,
+		td {
+			border: 1px solid black;
+			padding: 15px;
+		}
+
+		textarea {
+			resize: none;
+		}
+	</style>
+</head>
+
+<body>
+
+	<h1>Shipment</h1>
+
+	<form>
+		<table>
+			<tr>
+				<td><label for="txtfullname">&nbsp;&nbsp;&nbsp;&nbsp;Full name &nbsp;&nbsp;&nbsp;&nbsp;</label></td>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="txtfullname" id="txtfullname" required><br></td>
+			</tr>
+			<tr>
+				<td><label for="txtAddress">&nbsp;&nbsp;&nbsp;&nbsp;Address &nbsp;&nbsp;&nbsp;&nbsp;</label></td>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="txtAddress" id="txtAddress" required><br></td>
+			</tr>
+			<tr>
+				<td><label for="cmbParish">&nbsp;&nbsp;&nbsp;&nbsp;Parish &nbsp;&nbsp;&nbsp;&nbsp; </label></td>
+				<td>
+					&nbsp;&nbsp;&nbsp;&nbsp;<select name="cmbParish" id="cmbParish" required>
+						<option value="">Select</option>
+						<option value="LaConcepción">La Concepcion </option>
+						<option value="Cochapamba ">Cochapamba </option>
+						<option value="Atahualpa">Atahualpa</option>
+						<option value="Jipijapa">Jipijapa</option>
+					</select>&nbsp;&nbsp;&nbsp;&nbsp;<br>
+				</td>
+			</tr>
+
+			<tr>
+				<td><label for="txtCellphone">&nbsp;&nbsp;&nbsp;&nbsp;Cellphone &nbsp;&nbsp;&nbsp;&nbsp;</label>
+				</td>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="txtCellphone" id="txtCellphone" required><br>
+				</td>
+			</tr>
+
+			<tr>
+				<td><label for="txtemail">&nbsp;&nbsp;&nbsp;&nbsp;E-Mail &nbsp;&nbsp;&nbsp;&nbsp;</label></td>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="txtemail" id="txtemail" required><br></td>
+			</tr>
+
+			<tr>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;Additional indications&nbsp;&nbsp;&nbsp;&nbsp;</td>
+				<td>&nbsp;&nbsp;&nbsp; <textarea name="txtmessage" rows="5" cols="60">
+			  	  </textarea><br></td>
+			</tr>
+
+			<tr style="text-align: center;">
+				<td colspan="2"><input id="button" type="submit" /></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+
+</html>
