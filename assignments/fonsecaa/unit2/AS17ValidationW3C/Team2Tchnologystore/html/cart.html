@@ -1,0 +1,98 @@
+<!-- Author: Rafael Fonseca -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Shopping Cart | Technology Store</title>
+
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+
+    <style>
+        html {
+            background: linear-gradient(to right, #b2e2f2, #b0f2c2);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+
+            width: 70%;
+            border-collapse: collapse;
+            border: 1px solid black;
+            background-color: beige;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 15px;
+        }
+
+        footer {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Shopping Cart</h1>
+
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td><strong>Product</strong></td>
+                    <td><strong>Price</strong></td>
+                    <td><strong>Quantity</strong></td>
+                    <td><strong>Subtotal</strong></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>Product 1</td>
+                    <td>50,15</td>
+                    <td><input type="number" id="numProduct1" name="numProduct1" value="1" min="0"></td>
+                    <td>50,15</td>
+                    <td> <input type="image" src="../img/delete.png" alt="Submit"></td>
+                </tr>
+
+                <tr>
+                    <td>Product 2</td>
+                    <td>13.40</td>
+                    <td><input type="number" id="numProduct2" name="numProduct2" value="1" min="0"></td>
+                    <td>13.40</td>
+                    <td> <input type="image" src="../img/delete.png" alt="Submit"></td>
+                </tr>
+
+                <tr>
+                    <td>Product 3</td>
+                    <td>25.10</td>
+                    <td><input type="number" id="numProduct3" name="numProduct3" value="1" min="0"></td>
+                    <td>25.10</td>
+                    <td> <input type="image" src="../img/delete.png" alt="Submit"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="3" style="text-align:right;"><strong>Total</strong></td>
+                    <td></td>
+                    <td><input type="submit" value="Payment" /></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
+</body>
+
+</html>
