@@ -1,0 +1,71 @@
+/*
+    Author  :Daniel
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../Images/fondo.jpg');
+}
+
+.form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 40px;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 20px;
+    font-family: 'calibri';
+    color: rgb(255, 255, 255);
+    box-shadow: 40px 20px 50px #000;
+
+}
+
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a{
+    color: rgba(233, 236, 27, 0.856);
+    text-decoration: none;
+}
+
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.form-register a {
+    color: rgb(217, 255, 0);
+    text-decoration: none;
+
+}
+
+.form-register a:hover {
+    color:rgb(246, 250, 215);
+    text-decoration: underline;
+}
+
+.form-register .buttons{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: rgb(241, 238, 11);
+    margin: 16px;
+    font-size: 16px;
+}
