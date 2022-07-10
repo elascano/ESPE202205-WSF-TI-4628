@@ -1,0 +1,75 @@
+/*
+    create on : jUNE 24, 2022, 9:22:52 pm
+    Author    : Diana
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-image:  url('../images/fondo.jpg');
+}
+ 
+.form-register {
+
+    width: 400px;
+    background: #353533 ;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 25px #E0CA19  ;
+
+}
+
+.form-register h4 {
+
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.controls {
+
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #191a17;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(226, 241, 8);
+}
+.form-register p {
+
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  
+}
+
+.form-register a {
+    color: #F6F5BB  ;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color: #90E8F2 ;
+    text-decoration: underline;
+}
+
+.form-register .buttons{
+    width: 100%;
+    background: #24303c;
+    border: none;
+    padding: 12px;
+    color: aliceblue;
+    margin: 16px 0;
+    font-size: 16px;
+}
