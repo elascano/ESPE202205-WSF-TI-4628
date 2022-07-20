@@ -1,0 +1,127 @@
+/* Menu */
+body{
+    background-color: rgb(197, 230, 228);
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+  font-size: 20px;
+}
+
+header{
+  font-family: Helvetica;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(107, 189, 185);
+  box-shadow: 2px 2px 5px #999;
+}
+
+.menu li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu  li  a{
+	display: block;
+	padding: 20px 20px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #3835ce;
+	transition: all .3s;
+}
+
+/*  */
+
+h1, h2{
+    font-family: Helvetica;
+    text-align: center;
+    margin: 0 auto;
+}
+
+figure {
+    text-align: center;
+}
+figure img {
+    width: 40%;
+}
+
+.table{
+	width: 80%;
+	height: auto;
+}
+
+.table-product {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+  }
+  table hr {
+	height: 1px;
+	width: 90%;
+  }
+  
+  .image-product {
+	width: 120px;
+	height: 150px;
+  }
+
+  /* Form */
+
+  .form-login
+  {
+      width: 400px;
+      background-color: rgb(146, 180, 202);
+      padding: 30px;
+      margin: auto;
+      border-radius: 4px;
+      font-family: 'calibri';
+      color: black;
+      box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-login .buttons{
+      text-align: center;
+  }
+  
+  .controls
+  {
+      width: 100%;
+      background:  rgb(235, 235, 172);
+      padding: 10px;
+      margin-bottom: 7px;  /* arriba, derecha, abajo, izquierda */
+      border-radius: 10px;
+      font-family: 'calibri';
+      color: black;
+      font-size: 18px;  
+  }
+  
+  .form-login a
+  {
+      color:white;
+      text-decoration: none;
+  }
+  
+  #login {
+      color: white;
+  }
+  
+  /* From uiverse.io */
+  .buttons {
+      padding: 10px;
+      margin: 10px auto;
+      width: 100%;
+      font-size: 15px;
+      background-color: rgb(85, 78, 145);
+    }
+    
+  .buttons:hover {
+      background-color: #3a39a0;
+      box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+      transform: translateY(-5px);
+  }
