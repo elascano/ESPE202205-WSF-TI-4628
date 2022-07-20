@@ -1,0 +1,55 @@
+html {
+    background: linear-gradient(to right, #c0cbcf, #85a78e);
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.menuBar {
+    width: 80%;
+    border: 1px solid black;
+    background-color: rgb(87, 183, 212);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    height: 700px;
+    border: none;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+footer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    padding: auto;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 50px 20px;
+
+}
