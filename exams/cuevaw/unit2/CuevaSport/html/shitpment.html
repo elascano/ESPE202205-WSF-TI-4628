@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+
+	<title>Shipment </title>
+
+	<link rel="stylesheet" href="css/styleform.css">
+</head>
+
+<body>
+	<center>
+		<h1>Shipment</h1>
+	</center>
+
+	<form action="">
+		<p>Full Name</p>
+		<input type="text" class="field" name="txtfullname" id="txtfullname" required><br>
+
+		<p>Address </p>
+		<input type="text" class="field" name="txtAddress" id="txtAddress" required><br>
+
+		<p>Parish</p>
+		<select name="cmbParish" class="field" id="cmbParish" required>
+			<option value="">Select</option>
+			<option value="LaConcepción">La Concepcion </option>
+			<option value="Cochapamba ">Cochapamba </option>
+			<option value="Atahualpa">Atahualpa</option>
+			<option value="Jipijapa">Jipijapa</option>
+		</select><br>
+		<p>Cellphone</p>
+		<input type="number" class="field" name="txtCellphone" id="txtCellphone" required><br>
+		<p>E-mail</p>
+		<input type="email" class="field" name="txtemail" id="txtemail" required><br>
+		<p>Additional indications</p>
+		<textarea name="txtmessage" class="field"></textarea><br>
+		<p class="center-content">
+			<input type="submit" class="btn btn-green" value="Send">
+		</p>
+	</form>
+
+</body>
+
+</html>
