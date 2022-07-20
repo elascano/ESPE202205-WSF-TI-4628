@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #242F9B;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    height: 9rem;
+    width: auto;
+    text-align: center;
+    border: 1px solid ;
+    border-radius: 10px;
+}
+
+table {  
+    width: 75%;
+    align-content: center;   
+    background-color: #646FD4;
+}
+
+text {
+    text-align: center;
+}
+
+a {
+    font-size: 130%;
+}
+
+th, td {
+    text-align: center;
+    background-color: #9BA3EB;
+    border: 1px double;
+}
+
+.titulo {
+    background-color: #DBDFFD;
+}
+
+.imagenHombres{
+    width: 400px;
+    height: 300px;
+}
+
+.imagenMujeres{
+    width: 300px;
+    height: 400px;
+}
+.imagenNinos{
+    width: 300px;
+    height: 400px;
+}
+.imagenNinas{
+    width: 300px;
+    height: 400px;
+}
+
+.textoInfo {
+    text-align: center;
+}
+
+.logoizquierda {
+    width: 130px;
+    height: 130px;
+}
+
+.logoderecha {
+    width: 130px;
+    height: 130px;
+}
+
+.incioformlog {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.loginform table {
+    font-family: 'Comic Sans MS';
+    width: 500px;
+    background: #646FD4;
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    
+}
+
+.loginform th {
+    font-size: 22px;
+}
+
+label{
+    font-size: 22px;
+}
+
+.controlsloginf{
+    width: 100%;
+    background: #DBDFFD;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #9BA3EB;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: black;
+}
+
+.controlsloginf:hover {
+    color: #9BA3EB;
+    text-decoration: none;
+    cursor: pointer;
+}
