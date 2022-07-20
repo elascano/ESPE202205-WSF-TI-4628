@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color:burlywood;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin: 10px;
+}
+
+nav a{
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: aquamarine;
+}
+
+.page_footer{
+    width: 100%;
+    min-height: 50px;
+    background-color:salmon ;
+}
+
+.page_footer .group1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.page_footer .group1 .box a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page_footer .group1 .box a img{
+    width: 250px;
+}
+
+.page_footer .group1 .red-social a img{
+    height: 3rem;
+    width: auto;
+    text-align: center;
+}
+.page_footer .group1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 10px;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+
+    .page_footer .group1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
