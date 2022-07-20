@@ -1,0 +1,151 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgba(194, 227, 228, 0.986);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin: 10px;
+}
+
+nav a{
+    padding-right: 10px;
+}
+
+nav a:hover {
+    background-color: rgb(184, 226, 212);
+}
+
+.form-refister{
+    width: 400px;
+    background:white;
+    padding: 10px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibry';
+    color:black;
+    box-shadow: 7px 13px 37px #000;
+}
+.form-refister h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.controls{
+    width: 100%;
+    background: #f7f7f7;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #0d1b0f;
+    font-family: 'calibry';
+    font-size: 18px;
+    color: rgba(0, 80, 155, 0);
+}
+.form-refister p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-refister h4{
+    text-align: center;
+}
+
+.form-refister a{
+    color: black;
+    text-decoration: none;
+}
+.form-refister a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.form-refister .button{
+    width: 100%;
+    background: #9e9898;
+    border: none;
+    padding: 12px;
+    color: black;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.page_footer{
+    width: 100%;
+    min-height: 50px;
+    background-color:rgba(194, 227, 228, 0.986);
+}
+
+.page_footer .group1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.page_footer .group1 .box a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page_footer .group1 .box a img{
+    width: 250px;
+}
+
+.page_footer .group1 .red-social a img{
+    height: 3rem;
+    width: auto;
+    text-align: center;
+}
+.page_footer .group1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 10px;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+
+    .page_footer .group1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
