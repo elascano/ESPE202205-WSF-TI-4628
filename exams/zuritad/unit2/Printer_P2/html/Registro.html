@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <style>
+        table,td{
+			border: 1px solid black;
+			border-collapse: collapse;
+            background-color: bisque;
+			
+		}
+		td{
+			padding: 10px;
+		}
+		tr:nth-of-type(1) > th{
+			background-color: orange;
+		}
+        body{
+            background: url(ImagenesProyecto/fondo_medicina.jpg);
+            background-size: cover;
+        }
+    </style>
+    <body>
+        <header>
+            <div class="div-header">
+                <nav>
+                    <ul class="nav">
+                        <li class="selected-menu"><a href="../index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="Registro.html">Register</a></li>
+                        <li><a href="html/Forms.html">List</a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <center><h1>Registro de Productos</h1></center>
+        <form>
+            <center><table>
+                <tr>
+                    <td>
+                        <label for="name">Nombre: </label><br>
+                        <input type="text" id="name" name="Name" placeholder="Ingrese nombre del producto">
+                    </td>
+                    <td>
+                        <label for="barcode">Codigo de barras: </label> <br>
+                        <input type="text" id="barcode" name="Code" placeholder="Ingrese codigo de barras">
+                    </td>
+                    <td>
+                        <label for="dateAddmision">Fecha de ingreso: </label><br>
+                        <input type="date">
+                    </td>
+                    <td>
+                        <label for="dateExpiration">Fecha de experiacion: </label><br>
+                        <input type="date">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="comercial">Casa comercial: </label><br>
+                        <select name="comercialHome" id="comercial">
+                            <option value="1">cyc_printer</option>
+                            <option value="2">house_print</option>
+                            <option value="3">Grunenthal</option>
+                            <option value="4">techno</option>
+                            <option value="5">webTechno</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="supplier">Proveedor: </label><br>
+                        <select name="NameSupplier" id="supplier">
+                            <option value="1">HP</option>
+                            <option value="2">EPSON</option>
+                            <option value="3">CANON</option>
+                            <option value="4">LASER</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="stock">Numero de cajas ingresadas:</label>
+                        <input type="text" id="stock" name="numBox" size="2"><br><br><br>
+                        <label for="units">Unidades por caja:</label>
+                        <input type="text" id="units" name="unitsBox" size="2">
+                    </td>
+                    <td>
+                        <label for="priceBox">Precio por caja:</label>
+                        <input type="text" id="pricebox" name="priceBox" size="2"><br><br><br>
+                        <label for="priceUnit">PVP:</label>
+                        <input type="text" id="priceunit" name="priceUnit" size="2"><br>
+                    </td>
+                    <td colspan="2">
+                        <label for="description">Descripcion del producto:</label><br>
+                        <textarea name="descriptionProduct" id="description" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <center>
+                        <input type="submit" value="INGRESAR" style="background-color:rgb(54, 255, 47)">
+                        <input type="submit" value="CANCELAR" style="background-color:rgba(255, 0, 0, 0.949)">
+                        </center>
+                    </td>
+                </tr>
+            </table></center>
+        </form>
+    </body>
+    </html>
