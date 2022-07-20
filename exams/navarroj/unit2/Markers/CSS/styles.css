@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3
+{
+  text-align: center;
+}
+
+nav ul 
+{
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+  font-size: 20px;
+}
+
+.form-register{
+
+    text-align: center;
+
+  }
+
+nav ul li 
+{
+	display: inline-block;
+	padding: 10px;
+}
+
+ul li a
+{
+	text-decoration: none;
+	color: rgb(13, 73, 70);	
+  
+} 
+
+P{
+    text-align: center;
+    margin: 30;
+	padding: 30;
+}
+
+.portada{
+	width: 100%;
+	height: auto;
+}
+
+
+header{
+  font-family: Helvetica;
+  width: 100%;
+  margin: 10 auto;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 5px #999;
+}
+
+
+.navegacion{
+	background-color: rgb(44, 145, 212);
+}
+
+.navegacion ul{
+	list-style: none;
+	text-align: center;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 20px 20px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+.menu li:hover{
+	color: #ffffff;
+	transition: all .3s;
+	background-color: #ffffff;
+}
+
+
+.image{
+	width: 120px;
+	height: 150px;
+  }
+
+  table{
+	position: center;
+  }
