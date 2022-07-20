@@ -1,0 +1,33 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+	background-color:"#D3B5FE";
+}
+
+header{
+	min-height: 85px;
+	background-color: #372E44;
+	color: white;
+	text-align:center;
+	font-size: 50px;
+}
+
+footer {
+    min-height: 85px;
+	color: white;
+}
+
+footer p{
+	min-height: 85px;
+    color:white;
+	background-color: #7413FB;
+    text-align:center;
+	font-size: 25px;
+}
+
+.menu{
+	background-color: aquamarine;
+}
+
+
+
