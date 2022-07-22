@@ -1,0 +1,33 @@
+body {
+    background-color: #64DBDB;
+}
+
+div {
+    background-color: #79EF6D;
+    text-align: center;
+    font-size: 24px;
+}
+
+a, p, h4 {
+    color: #36574F;
+}
+
+table {
+    align-items: center;
+}
+
+table, tr, td{
+    border: 1px solid black;
+}
+tr, td{
+    text-align:center;
+    padding: 15px;
+}
+table#tabladeestudaintes{
+    background-color:#CCC1D4;
+    width: 75%;
+}
+th{
+    text-align:center;
+    background-color:#FFFFFF;
+}
