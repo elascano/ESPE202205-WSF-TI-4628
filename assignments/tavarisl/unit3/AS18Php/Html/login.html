@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/StyleGeneral.css" type="text/css">
+    <title>Registro</title>
+</head>
+<body>
+    <header>
+        <nav class="enlaces">
+            <ul class="opciones">
+                <li><a class="logotipo" href="../index.html"><img src="../Img/logo.jpg" width="175px" height="100px"
+                            alt="Logo"></a></li>
+                <li><a href="../index.html"><img src="../Img/Inicio.png" width="24px" height="20px" alt="inicio">INICIO</a>
+                </li>
+
+                <li><a href="../Html/store.html"><img src="../Img/tienda.png" width="25px" height="30px" alt="categoria">TIENDA</a>
+                </li>
+
+                <li><a href="../Html/login.html"><img src="../Img/cuenta.png" width="20px" height="17px"
+                            alt="cuenta">REGISTRAR</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <section class="form1" >
+        <form class="registro" action="../register.php" method="post">
+            <center>
+                <h4> Crear cuenta de Usuario </h4>
+            </center>
+            <p>
+            <fieldset class="f">
+                <legend><b>Información personal</b></legend>
+                <br />
+                <label>Apellidos: <input class="controls" type="text" name="second_name" id="second_name"
+                        placeholder="Ingrese Apellido"></label>
+                <label>Nombres: <input class="controls" type="text" name="first_name" id="first_name"
+                        placeholder="Ingrese Nombre"></label>
+                <label>Fecha de Nacimiento: <input class="controls" type="date" name="date" id="date"></label>
+                <label>Direccion Exacta: <input class="controls" type="text" name="address" id="address"
+                        placeholder="Calle E0-0 y Calle"></label>
+                <label>Email: <input class="controls" type="email" name="email" id="email"
+                        placeholder="Ingresar Email"></label>
+
+                Género:
+                <label class="container1">Masculino<input type="radio" checked="checked" name="radio" id="male">
+                    <span class="checkradio"></span></label>
+                <label class="container1">Femenino<input type="radio" checked="checked" name="radio" id="female">
+                    <span class="checkradio"></span></label>
+                <label>Celular: <input class="controls" type="text" name="cellphone" id="cellphone"
+                        placeholder="Ingrese Celular"></label>
+            </fieldset>
+            <br />
+
+            <center><input class="button" type="submit" value="Registrar"></center>
+        </form>
+
+    </section>
+    
+    
+</body>
+</html>
