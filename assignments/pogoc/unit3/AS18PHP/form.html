@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=StyleSheet href="style.css" type="text/css">
+    <title>Form Bikes</title>
+</head>
+<body>
+    <h1>Form for Bicycle</h1>
+    <div class="formBike">
+        <form action="formBike.php" method="post">
+            <label class="text">You consider the price for bicycles high?</label> 
+            <input type="radio" id="yes" name="priceBike" value="Yes"> Yes
+            <input type="radio" id="no" name="priceBike" value="No"> No <br /> <br />
+            <label class="text">How many years have you used the bicycle?</label>  <select name="selectYear">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="More Than 10">+10</option>
+            </select> <br /> <br />
+            
+            <label class="text">Anecdote with his bicycle: </label>  
+            <textarea name="anecdote" rows="3" cols="50"> </textarea> <br /> <br />
+
+            <label class="text">A photo of your current bike:</label>  <br /> 
+            <input type="file" name="imageBike" id="imageBike"> <br /> 
+
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
