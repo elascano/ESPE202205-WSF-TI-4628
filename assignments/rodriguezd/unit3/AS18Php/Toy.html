@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/styles.css" type="text/css">
+    <title>Form</title>
+</head>
+<body>
+
+ <h1>Dates</h1>
+    <form class="register" action="registerToy.php" method="post">
+        <label for="nombre">Nombre del juguete:</label>
+        <input class="textBoxes" type="text" name="nombre" placeholder="Ingrese su nombre"><br><br>
+        <label for="categoria">Categoria:</label>
+        <select class="textBoxes" name="categoria">
+            <option>Seleccione</option>
+            <option>Peluches</option>
+            <option>Rompecabezas</option>
+            <option>Autos</option>
+            <option>Robots</option>
+            <option>Muñecas</option>
+        </select>
+        <label for="cantidad">Cantidad:</label>
+        <input class="textBoxes" type="text" name="cantidad" placeholder="Ingrese la cantidad">
+        <label for="precio">Precio:</label>
+        <input class="textBoxes" type="text" name="precio" placeholder="Ingrese el precio">
+        <input class="buttons" type="submit" value="Guardar">
+    </form>
+    
+</body>
+</html>
+    
+
+    
