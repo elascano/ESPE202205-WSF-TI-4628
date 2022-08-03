@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="CSS/Styles.css" rel="stylesheet" type="text/css"/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="main.js"></script>
+    <title>Keyboards</title>
+  </head>
+  
+  <link rel="icon" href="Image/register.png">
+	
+  <body>
+	
+    <Image src="Image/logo.jpg" width="80"height="50"><br/>
+    
+    <p class="center">KEYBOARD PRODUCT REGISTRATION</p>
+      
+    <form class="form-register" name="form" action="register.php" method="post">
+      <h4>REGISTER</h4>
+      
+      Name<input class="controls" type="text" name="name" id="name" placeholder="name" required><br/>
+      Birth Date <input class="botons" type="date" name="date" id="date" placeholder="date" required><br/>
+      Email<input class="controls" type="email" name="email" id="email" placeholder="email" required><br/>
+      Phone Number<input class="controls" type="number" name="number" id="number" placeholder="number" required><br/>
+      Product 
+          <select class="botons" id="product" name="product" size="1" required>
+            <option value="Select">Select the product</option>
+            <option value="Classic">Classic</option>
+            <option value="Ergonomic">Ergonomic</option>
+            <option value="Multimedia">Multimedia</option>
+            <option value="Flexible">Flexible</option>
+            <option value="Membrane">Membrane</option>
+            </select><br/>
+      Price<input class="controls" type="number" step="any" name="price" id="price" placeholder="price" required><br/>
+      
+      <input class="botons" type="submit" value="Save">
+      <input class="botons" type="reset" value="Reset">
+    </form>
+    
+  </body>
+</html>
