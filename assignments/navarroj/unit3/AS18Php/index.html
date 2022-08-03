@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World of Marker</title>
+    <link href="./css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a>WORLD OF MARKER</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br /><br />
+    <h2>REGISTER PRODUCTS</h2>
+    <br /><br />
+
+    <form action="php/products.php" method="get">
+        <section class="form-register">
+            ID:<input class="controls" type="text" name="id" id="marker" placeholder="Product ID">
+            Name:<input class="controls" type="text" name="name" id="marker" placeholder="Product name">
+            Price:<input class="controls" type="text" name="price" id="marker" placeholder="Product price">
+            Image:<center><input class="file" type="file" name="image" id="marker" placeholder="Product price"></center>
+            Description<textarea class="controls" type="text" name="description" id="marker" placeholder="Description" rows="3"></textarea>
+            <input class="buttons" type="submit" value="Save">
+        </section>
+    </form>
+
+</body>
+
+</html>
