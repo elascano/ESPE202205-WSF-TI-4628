@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Style/css.css" rel="stylesheet" type="text/css"/>
+    <title>Gómez Daniel Registration Form</title>
+</head>
+<body>
+    <section class="form-refister">
+        <form action = "registerCustomer.php" method="get">
+            <h4>Buildings Maintenance</h4>
+            Name<input class="controls" type="text" name="name" id="name" placeholder="name and last name">
+            Type maintenance<select class="controls" type="text" name="maintenance" id="maintenance" value="Select">
+                <option value="locksmith">locksmith</option>  
+                <option value="security">security</option>  
+                <option value="construction worker">construction worker</option>  
+                <option value="electrician">electrician</option>  
+            </select>  
+            Model<input class="controls" type="text" name="model" id="model" placeholder="model">
+            Phone<input class="controls" type="text" name="phone" id="phone" placeholder="phone">
+            Price<input class="controls" type="text" name="price" id="price" placeholder="price">
+            <p>I agree with <a href="#">Terms and Conditions</a></p>
+            <input class="button" type="submit" value="Save">
+        </form>
+    </section>
+</body>
+</html>
