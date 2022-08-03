@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/style.css">
+    <title>Apartments Form</title>
+</head>
+
+<body>  
+    <form>
+        <div class="container">
+            <h1>Form to our clients</h1>
+            <table>
+                <tr>
+                    <td>
+                        <label>What is your Name? </label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Name" name="name" id="username" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>How many apartments do yo have? </label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="howMany" name="howMany" value="1"> 1</input> <br>
+                        <input type="checkbox" id="howMany" name="howMany" value="2"> 2</input> <br>
+                        <input type="checkbox" id="howMany" name="howMany" value="3"> +2</input> <br>
+                        <input type="checkbox" id="howMany" name="howMany" value="4"> No apartment</input>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label>Do you prefer to buy or rent an apartment?</label>
+                    </td>
+                    <td>
+                        <select id= "buyRent" name="buyRent" required>
+                            <option value="SELECT">SELECT</option>  
+							<option value="buy">Buy</option>  
+							<option value="Rent">Rent</option>  
+							<option value="NoOne">No one</option> 
+                        </select>
+                    </td>                      
+                </tr>                
+            </table>   
+            <button type="submit">Send</button>         
+        </div>
+    </form>
+    
+</body>
+</html>

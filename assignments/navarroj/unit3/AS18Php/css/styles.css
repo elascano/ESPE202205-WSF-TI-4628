@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../img/fondo.png");
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.navegacion {
+    background-color: rgb(77, 184, 255);
+}
+
+.menu>li>a {
+    display: block;
+    padding: 20px 20px;
+    color: #353535;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+
+
+.form-register {
+    width: 400px;
+    background: #aaffb1;
+    padding: 30px;
+    margin: auto;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 95%;
+    background: #ffffff;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #00500d;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    background-color: #b1b1b1;
+    color: rgb(109, 1, 1);
+}
+
+.form-register .buttons {
+    width: 100%;
+    background: #242a36;
+    border-radius: 30px;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.table {
+    width: 800px;
+    background: #fafafa;
+    padding: 30px;
+    margin: auto;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px #000;
+}
+
+.table h2{
+    padding: 30px;
+    margin: auto;
+    font-family: 'calibri';
+    color: rgb(44, 216, 136);
+}
+
+.table p{
+    padding: 30px;
+    margin: auto;
+    font-family: 'calibri';
+    color: rgb(0, 0, 0);
+}
+
+.table h3{
+    padding: 30px;
+    margin: auto;
+    font-family: 'calibri';
+    color: rgb(0, 0, 0);
+}

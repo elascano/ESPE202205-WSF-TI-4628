@@ -1,0 +1,52 @@
+body
+{
+ background-color: aqua;
+}
+
+h1
+{
+  color: cadetblue;
+  font-size: 40px;
+  text-align: center;
+}
+
+.register
+{
+    width: 400px;  /* Para cambiar el tamaño*/
+    background: #1b8396;
+    padding: 40px;
+    margin: auto;
+    margin-top: px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+
+
+.textBoxes
+{
+    width: 100%;
+    background: #1facc5;
+    padding: 10px;
+    margin-bottom: 4px;
+    border-radius: 16px;
+    font-family: 'Segoe UI';
+    color: white;
+    font-size: 18px;
+   
+}
+
+
+.buttons
+{
+    width: 100%;
+    background: #1facc5;
+    border: none;
+    padding: 14px;
+    color:white;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
