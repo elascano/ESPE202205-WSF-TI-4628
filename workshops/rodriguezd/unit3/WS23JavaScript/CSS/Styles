@@ -1,0 +1,52 @@
+body
+{
+ background-color: rgb(228, 154, 105);
+}
+
+h1
+{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.segment
+{
+    width: 400px;  /* Para cambiar el tamaño*/
+    background: rgb(228, 154, 105);
+    padding: 40px; /* Para modificar el espacio del formulario*/
+    margin: auto;
+    margin-top: 1px;
+    border-radius: 1px;
+    font-family: 'Segoe UI';
+    color: white;
+    box-shadow: 7px 13px 37px rgb(226, 122, 38); /*Sombreado del formulario*/
+}
+
+
+
+.numbers
+{
+    width: 100%;
+    background: rgb(228, 154, 105);
+    padding: 10px;
+    margin-bottom: 4px;
+    border-radius: 16px;
+    font-family: 'Segoe UI';
+    color: white;
+    font-size: 18px;
+   
+}
+
+
+.buttons
+{
+    width: 100%;
+    background: rgb(228, 142, 84);
+    border: 1px;
+    padding: 12px;
+    color:white;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
