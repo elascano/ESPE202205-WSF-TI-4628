@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Descuento al cliente</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script>
+
+        function algoritmo() {
+            let descuento, monto_de_venta, monto_total;
+            monto_de_venta = parseFloat(document.formulario1.monto_de_venta.value);
+            descuento = 0;
+            if (monto_de_venta >= 500 && monto_de_venta < 1500)
+                descuento = descuento * 0.05;
+            if (monto_de_venta >= 1500 && monto_de_venta < 5000)
+                descuento = descuento * 0.12;
+            if (monto_de_venta >= 5000)
+                descuento = descuento * 0.18;
+            monto_total = monto_de_venta - descuento;
+            document.formulario1.descuento.value = descuento;
+            document.formulario1.monto_total.value = monto_total;
+        }
+    </script>
+</head>
+
+<body>
+    <form name="formulario1">
+        <table style="text-align: left; margin-left: auto; margin-right: auto;">
+            <center>
+                <h1>WENDY'S CALCULATOR</h1>
+            </center>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="monto_de_venta">Enter the value of the sale amount:</label>
+                    </td>
+                    <td>
+                        <input name="monto_de_venta" required="required" step="0.000001" type="number" />
+                    </td>
+                </tr>
+              
+                <tr>
+                    <td>
+                        <label for="descuento">Discount value:</label>
+                    </td>
+                    <td>
+                        <input name="descuento" step="0.000001" type="number" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="monto_total">Total amount value:</label>
+                    </td>
+                    <td>
+                        <input name="monto_total" step="0.000001" type="number" />
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2" rowspan="1">
+                        <input value="Procesar" class="button" type="button" onclick="algoritmo();" />
+                        <input class="button" type="reset" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>
