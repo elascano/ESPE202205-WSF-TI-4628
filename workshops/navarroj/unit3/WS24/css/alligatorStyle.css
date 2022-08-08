@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(172, 221, 180);
+}
+
+img {
+    height: 400px;
+}
+
+button img {
+    height: 94px;
+}
+
+div.mainContent {
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
