@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #9CBE9D
+}
+
+img{
+	height: 440px;
+}
+
+button img{
+	height: 94px;
+}
+
+div.mainContent{
+	text-align: center;
+	width: 600px;
+	margin: auto;
+}
