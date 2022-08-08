@@ -1,6 +1,6 @@
 body{
 	align-content: stretch;
-	text-align: center;
+	text-align: left;
 	background:#646464;
 	
 }
@@ -26,4 +26,7 @@ h1 {
                0  8px 0 #41330a,
                0 10px 0 #41330a,
                0 12px 0 #41330a;
+}
+.segment{
+  text-align: center;
 }

@@ -1,6 +1,6 @@
 body{
 	align-content: stretch;
-	text-align: center;
+	text-align: left;
 	background:#646464;
 	
 }
@@ -11,6 +11,7 @@ body{
 	background: white;
 	border-bottom-color: coral;
 	text-decoration-color: black;
+  padding: 30px;
 }
 
 
