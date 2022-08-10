@@ -12,16 +12,15 @@ var expressions =
 function validateBrand()
 {
     var expRegName= /^[a-zA-ZÑñÁáÉéÍíÓóÚúÜü\s]+$/;
-    var brandName= document.getElementById('brand');
-    if(expRegName.exec(brandName.value))
+    var brandName = document.getElementById("brand");
+    if (!expRegName.exec(brandName.value))
     {
-        alert("Only write letters.");
+        alert("Only write letters");
         return false;
-    }
-    else
+
+    }else 
     {
         return true;
-        
     }
 }
 
