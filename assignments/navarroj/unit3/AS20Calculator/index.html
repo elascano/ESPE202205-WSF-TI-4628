@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    
+    <hr>
+    <div class="contenedor">
+        <center><h1>JOHNY CALCULATOR</h1></center>
+        <form action="">
+         <label for="Price">Price:</label>
+         <input type="number" name="Price" id="Price" class="label" step="0.01" >
+         <br>
+         <label for="quantity">Product quantity:</label>
+         <input type="number" name="quantity" id="quantity" class="label">
+         <br>
+         <input type="submit" name="add" id="add" value="Calcular" onclick="computeAddition();">
+         <input type="submit" name="subtract" id="subtract" value="Borrar" onclick="computeSubtraction();">
+        
+     </form>
+ </div>
+ <hr>
+<script>
+    function computeAddition(){
+
+        var Price = parseFloat(document.getElementById('Price').value);
+        var quantity = parseInt(document.getElementById('quantity').value);
+        
+        var total = Price * quantity;
+        console.log(total);
+        
+
+        if(total > 100)
+        {
+            alert("Ha tenido un gato que superan los 500$ por lo tanto tiene un descuento del 25%");
+            alert("Total a pagar: " + total - total*0.25);
+        }
+        else
+        {
+            alert("El total a pagar es: " + total);
+        }
+
+        
+
+    }
+</script>
+
+
+ </body>
+</html>
