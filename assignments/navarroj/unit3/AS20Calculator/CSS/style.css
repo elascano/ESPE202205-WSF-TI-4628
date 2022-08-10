@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(94, 128, 128);
+}
+.contenedor{
+    padding: 20px;
+    margin: 20px 450px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 3px 3px 7px #000;
+}
+
+.contenedor #add{
+    width: 40%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+#subtract{
+    width: 40%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.label{
+    width: 40%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    left: 80px;
+}
