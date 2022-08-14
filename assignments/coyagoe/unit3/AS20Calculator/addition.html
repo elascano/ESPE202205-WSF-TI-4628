@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+
+    <script>
+        function algorithm(){
+            let hoursWorked, hourly, workerSalary;
+            hoursWorked = parseFloat (document.form1.hoursWorked.value);
+            hourly = parseFloat (document.form1.hourly.value);
+            workerSalary=hoursWorked*hourly;
+            if(hoursWorked>54)
+            workerSalary=workerSalary+(hoursWorked-54)*hourly*0.5;
+            document.form1.workerSalary.value = workerSalary;
+        }   
+    </script>
+
+</head>
+<body>
+    <h1>EUNICE's CALCULATOR</h1>
+    <h3>Salary of an hourly employee</h3>
+
+    <div class="segment">
+        <form name="form1" class="form-register">
+            <hr>
+            <label for="hoursWorked">Enter the value of hours worked: </label>
+            <input type="number" name="hoursWorked" id="hoursWorked" step="0.01" min="0" max="40">
+            <br/>
+            <label for="hourly">Enter the value of pay per hour: </label>
+            <input type="number" name="hourly" id="hourly" step="0.01" >
+            <br/>
+            <br/>
+            <input value="Calculate" type="button" onclick="algorithm();" />
+            <input type="reset" value="Reset"/>  
+            <br/>
+            <br/>
+            <label for="workerSalary">Worker salary value: </label>
+            <input name="workerSalary" step="0.000001" type="number" />
+            <hr>
+     </form>
+ </div>
+
+
+    
+
+</body>
+
+</html>
