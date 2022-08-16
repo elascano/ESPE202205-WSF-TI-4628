@@ -16,7 +16,7 @@ function validateBrand(){
 	}
 }
 
-function validateBrand(){
+function validatePlate(){
 	var platename= document.getElementById("plate").value;
 	if(!(expressions.plate).test(platename)){
 	   window.alert("Invalid Plate !!");	
