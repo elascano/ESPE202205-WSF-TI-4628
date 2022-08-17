@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/formStyle.css" type="text/css">
+    <title>Students</title>
+    <script src="../js/validate.js"></script>
+</head>
+
+<body style="text-align: center">
+    <form class=form-register>
+
+        <h2> Student Information </h2>
+        <label for="textfield">Name:</label>
+        <input type="text" name="Name" id="Name" onBlur="return validateName() "><br>
+        <label for="textfield">Id:</label>
+        <input type="text" name="id" id="id" onBlur="validateId()"> <br>
+        <label for="textfield">Semester:</label>
+        <input type="text" name="Semester" id="Semester" onBlur="validateSemester()"><br>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+
+    </form>
+</body>
+
+</html>
