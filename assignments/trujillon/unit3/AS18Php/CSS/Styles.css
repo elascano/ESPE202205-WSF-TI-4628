@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;        
+}
+
+body{
+    background-image: url('../css/images/background.webp');
+    background-repeat: no-repeat;
+    background-size: 1380px 650px;
+}
+
+h3{
+    font-size: 22px;
+    text-align: center;
+    color: green;
+}
+
+form{
+    width: 400px;
+    background: white;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: Georgia;
+    color: black;
+    box-shadow: 7px 13px 37px #000;
+}
+
+input{
+    width: 100%;
+    background: ghostwhite;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 16px;
+    border: 1px solid greenyellow;
+    font-family: Georgia;
+    font-size: 15px;
+    color: black;    
+}
+
+button {
+    width: 100%;
+    background: green;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;        
+}

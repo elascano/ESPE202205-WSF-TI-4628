@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/css.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="JS/validation.js"></script>
+    <title>National Travel</title>
+</head>
+
+<body>
+    <section class="loginform">
+
+        <h1>National Travel</h1>
+
+        <table>
+            <tr>
+                <td><b><label for="txtCi">Nationality</label></b></td>
+                <td>
+                    <input class="controlsloginf" type="text" id="nationality" name="nationality" maxlength="16"
+                        onkeyup="validateNationality()">
+                    <p id="mensaje-error-nationality" class="input-error">The nationality should only have letters.</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td><b><label for="txtName">Full name</label></b></td>
+                <td>
+                    <input class="controlsloginf" type="text" id="txtName" name="txtName" required
+                        onkeyup="validateFullName()">
+                    <p id="mensaje-error-txtName" class="input-error">The name must be from 4 to 40 digits and can only
+                        contain numbers, letters and underscores.</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td><b><label for="txtphoneNumber">Passport Number</label></b></td>
+                <td>
+                    <input class="controlsloginf" type="text" id="passport" name="passport" maxlength="10"
+                        onkeyup="validatePassport()">
+                    <p id="mensaje-error-passport" class="input-error">The passport number can only contain numbers and
+                        the maximum is 10 digits.</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><button class="controlsloginf" type="submit">Save</button></td>
+            </tr>
+
+        </table>
+    </section>
+</body>
+
+</html>
