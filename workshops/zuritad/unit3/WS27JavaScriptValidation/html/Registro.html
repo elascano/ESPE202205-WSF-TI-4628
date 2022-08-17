@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styleforms.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Cell Phone Check</title>
+    <script src="../js/validate.js"></script>
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <form class="form-register">
+        <h4>Cell Phone Check</h4>
+        <label> Brand: </label>
+        <input class="controls" type="text" name="brand" id="brand" placeholder="Insert the cell phone brand" onBlur="validateBrand()">
+        <label >Model Year: </label>
+        <input class="controls" type="text" name="model" id="model" placeholder="Insert the model year" onblur="validateModel()">
+        <label> Serial Number</label>
+        <input class="controls" type="text" name="serial" id="serial" placeholder="Insert the Serial number of your phone" onblur="validateSerial()">
+        <button class="botons" type="submit">Check</button>
+    </form>
+
+</body>
+
+</html>
