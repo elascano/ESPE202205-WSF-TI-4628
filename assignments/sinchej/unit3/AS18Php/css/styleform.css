@@ -1,0 +1,51 @@
+html {
+    background-image: url("https://media.istockphoto.com/photos/young-athletic-couple-picture-id522644152?k=20&m=522644152&s=612x612&w=0&h=pL9sjtRwjtZzXxQNLNoxtcZRIlGFB3N9a9iEh2xOUmk=") ;
+    background-size: 49rem;
+}
+
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    background-color: white;
+    color: rgb(73, 70, 70);
+    border-radius: 4px;
+    font-size: 0.8em;
+    padding: 20px;
+    box-shadow: 8px 10px 10px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+
+input {
+    outline: none;
+    border: 0;
+    width: 280px;
+
+}
+
+.field {
+    border: solid 1px rgb(214, 194, 194);
+    padding: 15px;
+    width: 280px;
+}
+
+.field:focus {
+    border-color: #b2e2f2;
+}
+
+.btn {
+    background-color: #cef3ff;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 15px 15px;
+    text-decoration: 0 1px 0 rgba(112, 139, 197, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+
+
+h1,h3 {
+    text-align: center;
+    color: white;
+}
