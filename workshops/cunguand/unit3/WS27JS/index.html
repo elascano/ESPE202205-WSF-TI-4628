@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/view.css" media="all">
+	<script src="js/validation.js"></script>
+</head>
+<body>
+    <div id="form_container">
+
+		<h1><a>Penalty fee</a></h1>
+		<form id="form_41674" class="appnitro" method="" >
+			<div class="form_description">
+				<h2>Penalty fee</h2>
+
+			</div>
+			<ul>
+
+				<li id="li_1">
+					<label class="description" for="txtVehicleOwner">Vehicle Owner </label>
+					<div>
+						<input id="txtVehicleOwner" name="txtVehicleOwner" type="text"  maxlength="35" required autocomplete="off" onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122) || event.charCode == [32])|| event.charCode == [209] || event.charCode == [241]"/>
+					</div>
+				</li>
+				<li id="li_2">
+					<label class="description" for="txtDescriptionFine">Description of the fine </label>
+					<div>
+						<input id="txtDescriptionFine" name="txtDescriptionFine" type="textarea"  required onkeypress="return ((event.charCode >= 48 && event.charCode <= 57) || (event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))  || event.charCode = [32] || event.charCode == [209] || event.charCode == [241]" />
+					</div>
+				</li>
+				<li id="li_3">
+					<label class="description" for="txtPlate">Plate of vehicle </label>
+					<div>
+						<input id="txtPlate" name="txtPlate" type="text" maxlength="7"  required />
+                    </div>
+				</li>
+				<li id="li_4">
+					<label class="description" for="txtPrice">Value of the fine</label>
+					<div>
+						<input id="txtPrice" name="txtPrice" t ype="number" maxlength="6" required autocomplete="off" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 || event.charCode == [46])" min="1"  />
+					</div>
+				</li>
+
+				<li class="buttons">
+					<input type="hidden" name="form_id" value="41674" />
+
+					<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+				</li>
+			</ul>
+		</form>
+		<div id="footer">
+			
+		</div>
+	</div>
+</body>
+</html>
