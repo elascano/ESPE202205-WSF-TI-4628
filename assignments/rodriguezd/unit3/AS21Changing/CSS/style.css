@@ -1,0 +1,38 @@
+
+
+body
+{
+    background-color: #1b6679;
+}
+
+h1
+{
+    font-family: "Segoe UI";
+    font-size: 45px;
+    color: white;
+
+}
+
+img {
+    height: 440px;
+}
+
+button img {
+    height: 94px;
+}
+
+div.mainContent 
+{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+.footer
+{
+    
+    font-family: "Segoe UI";
+    font-size: 20px;
+    color: white;
+
+}
