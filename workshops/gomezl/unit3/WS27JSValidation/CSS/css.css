@@ -1,0 +1,78 @@
+.loginform h1 {
+    text-align: center;
+}
+
+table {  
+    width: 100%;  
+    background-color: #ccc1d4;
+    margin: 0% auto;
+    align-content: center;   
+    margin-bottom: 20px;
+}
+
+text {
+    text-align: center;
+}
+
+th, td {
+    text-align: center;
+    background-color: #000000;
+    border: 1px double;
+}
+
+
+.loginform table {
+    width: 500px;
+    background: #5a5858;
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    
+}
+
+.loginform th {
+    font-size: 22px;
+}
+
+label{
+    font-size: 22px;
+}
+
+.controlsloginf{
+    width: 85%;
+    background: #efefef;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #070607;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: black;
+}
+
+.controlsloginf:hover {
+    color: #050404;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.input-error {
+	font-size: 12px;
+	margin-bottom: 0;
+    color: red;
+	display: none;
+    padding-bottom: 16px;
+}
+
+.input-error-enabled {
+	display: block;
+}
+
+.input-error-border{
+    outline: none !important;
+    border: 2px solid red;
+}
