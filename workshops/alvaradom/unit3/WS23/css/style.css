@@ -8,7 +8,7 @@ body{
 
 
 .segment{
-	background: white;
+	background: rgb(35, 136, 219);
 	border-bottom-color: coral;
 	text-decoration-color: black;
 }
