@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form Validation </title>
+    <script src="js/validation.js"></script>
+</head>
+
+<body>
+
+    <section>
+        <form>
+            <center>
+                <h4> Form Validation </h4>
+            </center>
+            <p>
+            <fieldset>
+                <center>
+                    <legend><b>Vehicle Registration</b></legend>
+                    <br />
+                    <br />
+
+                    <label>Owner's name: <input class="controls" type="text" name="name" id="name"
+                            onBlur=" return validateName()" placeholder=" Carlos"></label>
+                    <br />
+                    <br />
+                    <label>Plates: <input class="controls" type="text" name="plate" id="plate"
+                            onBlur="return validatePlate()" placeholder="PSC0212"></label>
+                    <br />
+                    <br />
+                    <label>Customs register <input class="controls" type="text" name="customs" id="customs"
+                            onBlur="return validateCustoms()" placeholder="T02741904"></label>
+                    <br />
+                    <br />
+
+                    <input class="button" type="submit" value="Registrar">
+                </center>
+        </form>
+
+    </section>
+</body>
+
+</html>
