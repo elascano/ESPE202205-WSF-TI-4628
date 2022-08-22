@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Computers</title>
+	<script src="js/validate.js"></script>
+</head>
+
+<body style="text-align: center">
+<form id="form1" name="form1" style="background-color: rgb(34, 130, 194)">
+	
+<h2 style="color: rgb(255, 187, 0)"> Computers Information </h2>
+	<label for="textfield">Brand:</label>
+<input type="text" name="brand" id="brand" onBlur="return validateBrand() "  ><br>
+	<label for="textfield">Model:</label>
+<input type="text" name="model" id="model" onBlur="validateModel()"><br>
+    <label for="textfield">Serial Number:</label>
+<input type="text" name="serialnumber" id="serialnumber" onBlur="validateSerial()"> <br>
+	<br>
+	<input type="submit" value="Submit">
+	<input type="reset">
+
+</form>
+
+</body>
+</html>

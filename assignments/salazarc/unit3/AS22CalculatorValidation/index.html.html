@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/validation.js"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <h1>DANIEL CALCULATOR</h1>
+    <center>
+        <div class="segment">
+
+            <form action="">
+                <hr>
+                <label for="addend1">addend1:</label>
+                <input type="text" name="addend1" id="addend1" onblur="validateNumbers1()">
+                <br>
+                <label for="addend2">addend2</label>
+                <input type="text" name="addend2" id="addend2" onblur="validateNumbers2()">
+                <br>
+                <input type="submit" name="add" id="add" value=" + " onclick="computeAddition();">
+                <input type="submit" name="subtract" id="subtract" value=" - " onclick="computeSubtraction();">
+                <hr>
+            </form>
+        </div>
+    </center>
+
+    <script>
+        var addend1 = parseFloat(document.getElementById('addend1').value);
+        var addend2 = parseFloat(document.getElementById('addend2').value);
+
+        var sum = addend1 + addend2;
+    </script>
+
+    <script>
+        function computeAddition() {
+            var addend1 = parseFloat(document.getElementById('addend1').value);
+            var addend2 = parseFloat(document.getElementById('addend2').value);
+
+            var sum = addend1 + addend2;
+
+            alert("The addition of " + addend1 + "+" + addend2 + " is --> " + sum);
+        }
+    </script>
+
+</body>
+
+</html>

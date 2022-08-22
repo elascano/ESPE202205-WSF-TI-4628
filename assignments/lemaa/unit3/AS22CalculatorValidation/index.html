@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Calculator</title>
+	<script src="js/validate.js"></script>
+</head>
+
+<body style="text-align: center">
+<form id="form1" name="form1" style="background-color:blueviolet">
+	
+<h2 style="color:black">Allison Calculator</h2>
+<label for="value1">value 1:</label>
+<input type="text" name="value1" id="value1" onBlur="return validatevalue1()">
+<br>
+<label for="value2">value 2:</label>
+<input type="text" name="value2" id="value2" onBlur="return validatevalue1()">
+<br>
+<br>
+<input type="submit" name="add" id="add" value=" + " onclick="computeAddition();">
+<input type="submit" name="subtract" id="subtract" value=" - " onclick="computeSubtraction();">
+</form>
+
+</body>
+</html>

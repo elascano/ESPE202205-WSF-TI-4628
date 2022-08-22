@@ -1,0 +1,33 @@
+body {
+    background-color: lightskyblue;
+}
+
+.title h1 {
+    text-align: center;
+}
+
+.container-form {
+    text-align: center;
+    background-color: lightseagreen;
+    padding: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.container-form .inputs{
+    padding: 5px;
+}
+
+.container-form .container-bottons {
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-flex;
+}
+
+.item {
+    text-align: center;
+    float: left;
+    margin: 10px;
+}
+
