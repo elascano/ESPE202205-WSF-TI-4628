@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+
+body {
+  position: relative;
+  min-height: 100vh;
+  background-color: #E1E8EE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+form {
+  border-radius: 15px;
+  background-color: #fff;
+  overflow: hidden;
+  margin-top: 100px;
+  opacity: 1;
+  visibility: visible;
+  padding: 100px;
+}
+
+input {
+  border: 0;
+  outline: none;
+  box-shadow: none;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  padding: 10px 30px;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+  font-size: 12px;
+
+
+}
+
+.button {
+  background-color: #6B92A4;
+  color: rgba(256, 256, 256, 0.7);
+  border: 0;
+  border-radius: 15px;
+  display: block;
+  margin: 15px auto;
+  padding: 15px 45px;
+  width: 100%;
+  height: auto;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 1;
+  visibility: visible;
+}
+
+h1 {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
+  text-transform: uppercase;
+  display: block;
+  font-size: 25px;
+  color: #e5ebf1;
+  text-shadow: 0 2px 5px #9dc1c4, 0px -2px 1px rgb(255, 255, 255);
+  font-weight: bold;
+  letter-spacing: -4px;
+  text-align: center;
+  background: linear-gradient(to bottom, #d9eaec 0%,#cadaeb 100%);
+  padding: 30px 140px;
+  position: absolute;
+  left: 50%;
+  top: 100px;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+}
