@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="CSS/Styles.css" rel="stylesheet" type="text/css"/>
+    <meta author="Christian Garces">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/Validation.js"></script>
+    <title>Ecuador Army</title>
+</head>
+<body>
+    <section class="form-register">
+        <h4>Air Force Flying Time</h4>
+        <form name="form">
+        Pilot Name<input class="controls" type="text" name="name" id="name" placeholder="Name and LastName" onblur="validateBrand()">
+        Flight Time in minutes<input class="controls" type="text" name="time" id="time" placeholder="Time in minutes" onblur="validatetime()">
+        Aircraft serial number<input class="controls" type="text" name="code" id="code" placeholder="LZ548/G" onblur="">
+        <button  class="botons" type="submit" onclick="validatetime(),validateBrand(),validateid()">Save </button>
+        </form>
+    </section> 
+</body>
+</html>

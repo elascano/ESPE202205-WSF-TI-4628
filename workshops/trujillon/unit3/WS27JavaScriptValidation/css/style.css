@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+}
+
+form {
+    width: 400px;
+    background: teal;
+    padding: 50px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: black;
+    box-shadow: 7px 13px 37px #000;
+}
+
+label {
+    margin-left: 1px;
+    font-size: 18px;
+    padding: 2px;
+    display: block;
+    width: 100%;
+    font-family: 'calibri';
+}
+
+.controls {
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid teal;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: black;
+}

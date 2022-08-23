@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Speakers</title>
+
+    <script src="js/validation.js"></script>
+</head>
+
+<body>
+    <form class="formRegistration"`name="form">
+        <h3>Speaker Registration Form</h3>
+
+        <label for="textfield">Brand:</label><br>
+        <input class="infoRegistration" type="text" name="brand" id="brand" placeholder="Brand"  onBlur="return validateBrand()" required><br>
+        <label for="textfield">Model:</label><br>
+        <input class="infoRegistration" type="text" name="model" id="model" placeholder="Model" onBlur="return validateModel()"required><br>
+        <label for="textfield">Color:</label><br>
+        <select class="infoRegistration" name="color" id="color">
+            <option value="color">Color</option>
+            <option value="blue">Blue</option>
+            <option value="black">Black</option>
+            <option value="red">Red</option>
+        </select><br>
+        <label for="textfield">Serial Number:</label><br>
+        <input class="infoRegistration" type="number" name="serialNumber" id="serialNumber" placeholder="Serial Number" maxlength="15" required><br>
+
+        <input class="button" type="submit" value="Register"><br>
+    </form>
+
+</body>
+
+</html>

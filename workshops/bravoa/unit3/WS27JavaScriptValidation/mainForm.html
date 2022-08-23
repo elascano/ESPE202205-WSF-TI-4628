@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/app.js"></script>
+    <title>Cell Phone Inventory Entry</title>
+    <script src="js/validate.js"></script>
+</head>
+<body>
+    <form onsubmit="event.preventDefault()">
+        <div class="container">
+            <h1>Vehicles Registration</h1>
+            <br>
+            <label>Name</label>
+            <input type="text" name="name" id="name" onBlur="return validateName()">
+            <label>ID</label>
+            <input type="text" name="ID" id="ID" onBlur="return validateID()">
+            <label>Plate</label>
+            <input type="text" name="plate" id="name" onBlur="return validatePlate()">
+            <button type="submit" onclick="registerVehicle()">Register Vehicle</button>
+
+        </div>
+    </form>
+</body>
+</html>
+
