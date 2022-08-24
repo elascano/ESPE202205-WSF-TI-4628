@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Style.css" type="text/CSS">
+    <script src="js/validator.js"></script>
+    <title> Royal Air Force Insurance</title>
+</head>
+<body>
+    <form class="form-login">
+    <h1> Royal Air Force Insurance</h1>    
+        <label for="id">Serial Number:</label>
+        <input class="controls" type="text" name="serial" id="serial"  onchange= " validateserial(this)" placeholder=" LZ548/G" required="true">
+        <label for="cantidad">Full Name:</label>
+        <input class="controls" type="text" name="name" id="name" onchange=" validatefullname(this)" placeholder="Solorzano Deivy">
+        <label for="precio">Blood Type:</label>
+        <input class="controls" type="text" name="campus" id="campus" onchange=" validateblood(this)" placeholder="B+">
+       <button class="buttons" id="login" type="submit">Save</button>
+    </form>
+</body>
+</html>

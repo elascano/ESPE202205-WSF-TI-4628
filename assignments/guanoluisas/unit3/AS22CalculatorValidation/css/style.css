@@ -1,0 +1,19 @@
+body{
+	align-content: stretch;
+	text-align: left;
+	background:#aa8686;
+	
+}
+
+.segment{
+	background: rgb(211, 158, 158);
+	border-bottom-color: coral;
+	text-decoration-color: black;
+  margin: 10px 30px;
+}
+
+h1 {
+  font: bold 30px/1 arial;
+  text-transform: uppercase;
+  color: #1e75c6;
+}

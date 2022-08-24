@@ -22,7 +22,7 @@ function validateName () {
 
 function validateCountry () {
     var expCountry = /^[a-zA-ZÑñÁáÉéÍíÓóÚúÜü\s]+$/;
-    var Country = document.getElementById("country");
+    var Country = document.getElementById("countryid");
     if (!expCountry.exec(Country.value)) {
         alert("Ciudad incorrecta, solo letras");
         return false;

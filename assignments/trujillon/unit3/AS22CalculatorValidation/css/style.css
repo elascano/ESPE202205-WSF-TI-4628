@@ -1,0 +1,27 @@
+body{
+	align-content: stretch;
+	text-align: left;
+	background:#044547;
+	text-align: center;
+}
+
+.segment{
+	background: white;
+	border-bottom-color: coral;
+	text-decoration-color: black;
+  width: 400px;
+  margin: auto;
+  box-shadow: 7px 13px 37px #000;
+}
+
+h1 {
+  font: bold 30px/1 arial;
+  text-transform: uppercase;
+  color: #1ec66a;
+  text-shadow: 0  2px 0 #41330a,
+               0  4px 0 #41330a,
+               0  6px 0 #41330a,
+               0  8px 0 #41330a,
+               0 10px 0 #41330a,
+               0 12px 0 #41330a;
+}

@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Documento sin título</title>
+	<script src="js/validate.js"></script>
+</head>
+
+<body style="text-align: center">
+	<form id="form1" name="form1" style="background-color: rgb(212, 228, 67)">
+
+		<h2>PRINTERS </h2>
+		<label for="textfield">MODEL:</label>
+		<input type="text" name="brand" id="brand" onBlur="return validateBrand() "><br>
+		<label for="textfield">SERIAL NUMBERS:</label>
+		<input type="text" name="plate" id="plate" onBlur="validatePlate()"> <br>
+		<label for="textfield">PRICE:</label>
+
+		<input type="text" name="model" id="model" onBlur="validateModel()"><br>
+		<br>
+		<input type="submit" value="Submit">
+		<input type="reset">
+
+	</form>
+
+</body>
+
+</html>

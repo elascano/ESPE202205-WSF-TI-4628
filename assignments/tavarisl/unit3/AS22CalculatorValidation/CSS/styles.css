@@ -1,0 +1,65 @@
+body{
+     background-image: url('../Img/fondo1.png');
+     padding-right: 40%;
+    
+}
+
+h1
+{
+    text-align: center;
+    color: white;
+    font-family:"Segoe UI";
+}
+
+
+.form-login
+{
+    width: 420px;
+    background-color: #C6FDFA ;
+    padding: 30px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 20px;
+    font-family: 'calibri';
+    color: black;
+    box-shadow: 7px 13px 37px  #63E6F9 ;
+}
+.form-login label
+{
+    font-size: 95%;
+    font-weight: bold;
+
+}
+
+.controls {
+    width: 100%;
+    background: #34374F   ;
+    padding: 5px;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    font-family: 'calibri';
+    color: white;
+    font-size: 18px;
+}
+
+
+.buttons {
+    padding: 10px;
+    margin: 10px auto;
+    width: 100%;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    color: black;
+    background-color:  #D2D4FC;
+    border: none;
+    border-radius: 45px;
+    transition: all 0.9s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+.buttons:hover{
+    background: #A5A9F6;
+    opacity: 1;
+}
