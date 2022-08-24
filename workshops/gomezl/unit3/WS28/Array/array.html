@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Tecnología de Computadoras</h1>
+
+
+    <script>
+        const technology = [
+            ["Lenovo","ThinkPad","T-14"],
+            ["HP","ThinkPad","L001" ],
+            ["MacBook","ThinkPad","XH567"],
+            ["Lenovo","ThinkPad","G3001"],
+        ];
+
+            document.write("technology: <br>");
+        for (var i = 0; i < technology.length; i++) {
+            document.write(technology[i] + "<br>");
+        }
+
+        document.write("<br>Array<br>");
+
+        document.write("<br>Shift <br>");
+        document.write(technology.shift());
+        document.write("<br>");
+
+        document.write("<br>Sort<br>");
+        document.write(technology.sort());
+        document.write("<br>");
+
+        document.write("<br>Lenght <br>");
+        document.write(technology.length);
+        document.write("<br>");
+
+        document.write("<br>Collection Revers <br>");
+        document.write(technology.reverse);
+    </script>
+</body>
+
+</html>
