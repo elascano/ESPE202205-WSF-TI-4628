@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tienda Tecnológica</title>
+</head>
+
+  <br> <br>  Metod GET<br> <br>
+<div class="container" id="container">
+	
+	<form method="get">
+	<table width="324" border="1">
+  <tbody>
+    <tr>
+      <th width="166" scope="col">Marca</th>
+      <th width="151" scope="col"><input type="text" name="mark" id="mark" placeholder="Lenovo"></th>
+    </tr>
+    <tr>
+      <td>Modelo</td>
+      <td><input type="text" name="model" id="model" placeholder="Ideapad Gaming 3"></td>
+    </tr>
+    <tr>
+      <td>Serie</td>
+      <td><input type="text" name="serie" id="serie" placeholder="MP38SQ"></td>
+    </tr>
+    <tr>
+      <td>Cantidad</td>
+      <td><input type="text" name="amount" id="amount" placeholder="#"></td>
+    </tr>
+    <tr>
+      <td>Precio</td>
+      <td><input type="text" name="price" id="price" placeholder="$" inputmode="numeric" pattern="\d*"  ></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><center><input type="submit" name="submit" id="submit" value="Enviar" onclick="capturaDatos()" on></center></td>
+    </tr>
+  </tbody>
+</table>
+
+  </form>
+</div>
+
+<script>
+
+      var amount = parseFloat(document.getElementById("amount").value);
+      var price = parseFloat(document.getElementById("price").value);
+      var operation =  amount*price;
+
+    function capturaDatos() {
+
+      const compraV = {
+          mark: document.getElementById("mark").value,
+          model: document.getElementById("model").value,
+          serial: document.getElementById("serial").value,
+          amount: document.getElementById("amount").value,
+          price: document.getElementById("price").value
+      };
+      var amount = parseFloat(document.getElementById("amount").value);
+      var price = parseFloat(document.getElementById("price").value);
+      var operation =  amount*price;
+      console.log("");
+      console.log("");
+      console.log("");
+      console.log("La operacion es:",operation);
+      alert("La operacion es: amount"+ amount+ " * "+price+" = "+operation)
+    }
+  
+  </script>
+
+</body>
+</html>

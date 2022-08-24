@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/calculator.js"></script>
+    <script src="js/validation.js"></script>
+</head>
+<body>
+    <div class="title">
+        <h1>Carlos Calculator</h1>
+    </div>
+    <div class="container-form">
+        <form>
+            <div class="inputs">
+                <label for="value1">Value 1:</label>    
+                <input type="text" id="value1" class="value1" name="number1" onblur="return validateNumber1()">
+            </div>
+            <div class="inputs">
+                <label for="value2">Value 2:</label>
+                <input type="text" name="value2" id="value2" name="number2" onblur="return validateNumber2()">
+            </div>
+            <div class="container-bottons">
+                <div>
+                    <input type="submit" name="buttons" class="item" id="add" value="+" onclick="additonOfTwoNumbers();">
+                </div>
+                <div>
+                    <input type="submit" name="buttons" class="item" id="sub" value="-" onclick="subtractionOfTwoNumbers();">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

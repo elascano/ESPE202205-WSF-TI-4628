@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    
+    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <h1>EUNICE's CALCULATOR</h1>
+    <div class="form-register">
+            Number 1: <input type="number" id="n1" placeholder="n1"><br/>
+            Number 2: <input type="number" id="n2" placeholder="n2"><br/>
+            <br/>
+            <button id="addition">+</button>
+            <button id="subtraction">-</button>
+            <button id="multiplication">*</button>
+            <button id="division">/</button><br/>
+            <br/>
+            <button id="calculate">Calculate</button><br/>
+            <br/>
+            Result: <output id="result"></output> <br/>
+
+            <script>
+                let op;
+                document.querySelector('#addition').addEventListener('click', () =>{
+                    op = '+';
+                });
+                document.querySelector('#subtraction').addEventListener('click', () =>{
+                    op = '-';
+                });
+                document.querySelector('#multiplication').addEventListener('click', () =>{
+                    op = '*';
+                });
+                document.querySelector('#division').addEventListener('click', () =>{
+                    op = '/';
+                });
+        
+                document.querySelector('#calculate').addEventListener('click', () =>{
+                    const n1 = parseInt(document.querySelector('#n1').value);
+                    const n2 = parseInt(document.querySelector('#n2').value);
+                    //const op = document.querySelector('#op').value;
+                    let result;
+                    if(op == '+'){
+                        result = n1 + n2;
+                    }else if( op == '-'){
+                        result = n1 - n2;
+                    }else if(op == '*'){
+                        result = n1 * n2;
+                    }else if(op == '/'){
+                        result = n1 / n2;
+                    }
+                    document.querySelector('#result').innerHTML = result;
+                });
+            </script>
+    </div>
+    
+</body>
+
+</html>

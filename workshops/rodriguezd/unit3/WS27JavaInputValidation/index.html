@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css" type="text/CSS">
+    <script src="JavaScript/validation.js"></script>
+    <title>Technicians</title>
+</head>
+<body>
+    <br>
+    <h1>Technicians</h1>
+    <br>
+    <form class="form-login">
+        <label for="id">Id:</label>
+        <input class="controls" type="text" name="idEspe" id="idEspe"  onchange= " validateidEspe(this)" placeholder="Ingrese su id" required="true">
+        <label for="cantidad">Nombre:</label>
+        <input class="controls" type="text" name="name" id="name" onchange=" validateName(this)" placeholder="Ingrese su nombre">
+        <label for="precio">Campus:</label>
+        <input class="controls" type="text" name="campus" id="campus" onchange=" validateCampus(this)" placeholder="Ingrese el campus">
+       <button class="buttons" id="login" type="submit">Guardar</button>
+    </form>
+</body>
+</html>

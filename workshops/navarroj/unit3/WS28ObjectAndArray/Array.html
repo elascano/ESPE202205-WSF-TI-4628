@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UFT-8">
+    <title>Arrays</title>
+</head>
+
+<body>
+    <script>
+
+        var cliente = ['Eunice', '1799865452', 'Desarmadores', '1', '2.00']
+        document.write("Cliente:" + cliente + "<br>");
+
+        var ingresar = cliente.push("Femenino");
+        document.write("Cliente:" + cliente + "<br>");
+
+        var ingresar = cliente.push("1.2");
+        document.write("Cliente:" + cliente + "<br>");
+
+        var ingresar = cliente.unshift("35");
+        document.write("Cliente:" + cliente + "<br>");
+
+
+        const productos = new Map();
+
+        productos.set('Nombre', 'Erika');
+        productos.set('Cédula', '1728805761');
+        productos.set('Producto', 'tornillos');
+        productos.set('Cantidad', '2');
+        productos.set('Precio', '0.50');
+
+        console.log(productos);
+
+
+
+        var cliente1 = ['Eunice', '1799865452', 'Desarmadores', '1', '2.00'];
+        var cliente2 = ['Luis', '178942365', 'tornillos', '2', '0.50'];
+        var cliente3 = ['Erika', '1728805761', 'playo', '3', '1.50'];
+        var cliente4 = ['Matias', '1796486325', 'alambre', '4', '2.50'];
+        var cliente5 = ['Carlos', '1796548320', 'taipe', '5', '1.50'];
+
+        document.write("<br>" + "Cliente1: " + cliente1 + "<br>" + "Cliente2: " + cliente2 +
+            "<br>" + "Cliente3: " + cliente3 + "<br>" + "Cliente4: " + cliente4
+            + "<br>" + "Cliente5: " + cliente5);
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title> Motorcyle Plates </title>
+    <link rel="stylesheet" href="../css/style.css">
+	<script src="../js/validations.js"></script>
+</head>
+
+<body style="text-align: center">
+	<div class="segment">
+		<form>
+
+			<h2> Motorcycle Information </h2>
+			<label> Brand: </label>
+			<input class="controls" type="text" name="brand" id="brand" onBlur="validateBrand()">
+			<label> Price: </label>
+			<input class="controls" type="text" name="price" id="price" onBlur="validatePrice()">
+			<label> Plate: </label>
+			<input class="controls" type="text" name="plate" id="plate" onBlur="validatePlate()">
+			<input type="submit" value="Submit">
+
+		</form>
+	</div>
+</body>
+
+</html>

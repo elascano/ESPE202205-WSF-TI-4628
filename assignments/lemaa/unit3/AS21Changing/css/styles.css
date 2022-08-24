@@ -1,0 +1,17 @@
+body{
+    background-color: #9CBE9D;
+
+}
+img{
+    height: 440px;
+
+}
+button img{
+    height: 85px;
+}
+
+div.mainContent{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
