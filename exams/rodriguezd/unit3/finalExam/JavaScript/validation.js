@@ -1,17 +1,17 @@
 
-function validateProduct() 
+function validateName() 
 {
     var expRegProduct = /^[a-zA-ZÑñÁáÉéÍíÓóÚúÜü\s]+$/;
-    var product = document.getElementById("product");
+    var product = document.getElementById("name");
     if (!expRegProduct.exec(product.value))
      {
         alert("Se recibe solo letras");
-        document.getElementById("product").value = ""; 
+        document.getElementById("name").value = ""; 
        
     } 
 }
 
-function validateDateProduct()
+function validateDateClient()
 {
     var diaVencer= document.getElementById("day").value;
     var mesVencer= document.getElementById("month").value;
