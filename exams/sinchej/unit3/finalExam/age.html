@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <label for="inputName" class="text-muted">Fecha maxima de duracion (meses):</label>
+
+    <input type="text" id="meses_inicial" name="meses_vencimiento" class="form-vencimiento" id="meses_inicial" required>
+
+    <label for="inputName" class="text-muted">Fecha de ingreso:</label>
+
+    <input type="date" id="fecha_ini" name="fecha_ini" class="form-control readonly" required
+        onfocusout="calcularVenc()">
+
+    <label for="inputName" class="text-muted">Fecha vencimiento:</label>
+    <span id="fecha_fin">dd/mm/YYYY</span>
+
+</body>
+
+</html>
