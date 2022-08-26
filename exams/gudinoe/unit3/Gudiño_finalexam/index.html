@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/date.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <br>
+   <center> <h1>Product</h1></center>
+    <br>
+
+  <center> <form class="form-login">
+        <label for="fullName">Name:</label>
+        <input type="text" class="controls" name="fullName" id="fullName" step="0" min="0" max="100" >
+        <br>
+        <label for="id">expirate date:</label>
+        <input type="date" id="dateini" min="<?php echo date("d-m-Y");?>
+        <br>
+        <label for="id">now date:</label>
+        <input type="date" id="datefin" min="<?php echo date("d-m-Y");?>
+        <br>
+        <input type="button" value="calcular" onclick="calcular()">
+       
+        <input type="submit"  class="buttons" name="mult" id="mult" value=" * " >
+    </form> </center>>
+    
+</body>
+</html>
